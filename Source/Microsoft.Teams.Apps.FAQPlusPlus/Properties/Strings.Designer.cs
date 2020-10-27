@@ -88,7 +88,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ask an expert.
+        ///   Busca una cadena traducida similar a Pregunta a un experto.
         /// </summary>
         public static string AskAnExpertButtonText {
             get {
@@ -133,7 +133,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ask an expert.
+        ///   Busca una cadena traducida similar a Pregunta a un experto.
         /// </summary>
         public static string AskAnExpertTitleText {
             get {
@@ -943,7 +943,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Toma un tour.
+        ///   Busca una cadena traducida similar a Take a tour.
         /// </summary>
         public static string TakeATourButtonText {
             get {
