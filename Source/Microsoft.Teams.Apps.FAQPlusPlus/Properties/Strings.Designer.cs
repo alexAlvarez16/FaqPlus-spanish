@@ -133,7 +133,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Pregunta a un experto.
+        ///   Busca una cadena traducida similar a Pregunta a un asesor.
         /// </summary>
         public static string AskAnExpertTitleText {
             get {
