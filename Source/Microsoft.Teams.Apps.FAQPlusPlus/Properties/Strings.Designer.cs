@@ -70,7 +70,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a **Answer:**.
+        ///   Busca una cadena traducida similar a **Respuesta:**.
         /// </summary>
         public static string AnswerTitle {
             get {
@@ -268,7 +268,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Delete.
+        ///   Busca una cadena traducida similar a Eliminar.
         /// </summary>
         public static string DeleteButtonText {
             get {
@@ -277,7 +277,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Are you sure you want to delete this item? The question and answer will both be deleted..
+        ///   Busca una cadena traducida similar a ¿Estás seguro de querer eliminar este elemento? La pregunta y respuesta serán eliminadas..
         /// </summary>
         public static string DeleteConfirmation {
             get {
@@ -286,7 +286,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Deleted by {0}.
+        ///   Busca una cadena traducida similar a Eliminado por {0}.
         /// </summary>
         public static string DeletedQnaPair {
             get {
@@ -331,7 +331,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Edit.
+        ///   Busca una cadena traducida similar a Editar.
         /// </summary>
         public static string EditButtonText {
             get {
@@ -367,7 +367,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Question text cannot be empty..
+        ///   Busca una cadena traducida similar a El texto de la pregunta no puede estar vacío..
         /// </summary>
         public static string EmptyQuestionErrorText {
             get {
@@ -529,7 +529,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Last edited by.
+        ///   Busca una cadena traducida similar a Última edición por.
         /// </summary>
         public static string LastEditedText {
             get {
@@ -673,7 +673,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a **Question:** {0}.
+        ///   Busca una cadena traducida similar a **Pregunta:** {0}.
         /// </summary>
         public static string QuestionTitle {
             get {
@@ -1078,7 +1078,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Update history.
+        ///   Busca una cadena traducida similar a Actualizar historia.
         /// </summary>
         public static string UpdateHistoryButtonText {
             get {
@@ -1123,7 +1123,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Note: Updates are made every few minutes.
+        ///   Busca una cadena traducida similar a Nota: Las actualizaciones se realizan cada pocos minutos.
         /// </summary>
         public static string WaitMessageAnswer {
             get {
@@ -1143,7 +1143,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Yes.
+        ///   Busca una cadena traducida similar a Si.
         /// </summary>
         public static string Yes {
             get {
