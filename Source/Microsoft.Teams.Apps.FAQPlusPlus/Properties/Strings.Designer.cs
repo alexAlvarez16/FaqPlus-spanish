@@ -178,7 +178,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Back.
+        ///   Busca una cadena traducida similar a Regresar.
         /// </summary>
         public static string BackButtonText {
             get {
@@ -304,7 +304,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a *Description (Markdown supported).
+        ///   Busca una cadena traducida similar a *Descripción (Markdown compatible).
         /// </summary>
         public static string DescriptionLabelText {
             get {
@@ -376,7 +376,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title cannot be empty..
+        ///   Busca una cadena traducida similar a El título no puede estar vacío..
         /// </summary>
         public static string EmptyTitleErrorText {
             get {
@@ -493,7 +493,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Image URL.
+        ///   Busca una cadena traducida similar a Imagen URL.
         /// </summary>
         public static string ImageLabelText {
             get {
@@ -520,7 +520,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Redirect URL is not valid..
+        ///   Busca una cadena traducida similar a La URL de redireccionamiento no es válido..
         /// </summary>
         public static string InvalidRedirectUrlText {
             get {
@@ -655,7 +655,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a *Question.
+        ///   Busca una cadena traducida similar a *Pregunta.
         /// </summary>
         public static string QuestionLabelText {
             get {
@@ -700,7 +700,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Redirection URL.
+        ///   Busca una cadena traducida similar a URL de redirección.
         /// </summary>
         public static string RedirectionLabelText {
             get {
@@ -709,7 +709,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (200 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 200 caracteres).
         /// </summary>
         public static string RedirectionUrlPlaceholderText {
             get {
@@ -907,7 +907,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Subtitle (Markdown supported).
+        ///   Busca una cadena traducida similar a Subtítulo (Markdown apoyado).
         /// </summary>
         public static string SubtitleLabelText {
             get {
@@ -916,7 +916,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (20 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 20 caracteres).
         /// </summary>
         public static string SubtitlePlaceholderText {
             get {
@@ -1033,7 +1033,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title (Markdown supported).
+        ///   Busca una cadena traducida similar a Título (Markdown compatible).
         /// </summary>
         public static string TitleLabelText {
             get {
@@ -1042,7 +1042,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (50 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 50 caracteres).
         /// </summary>
         public static string TitlePlaceholderText {
             get {
@@ -1096,7 +1096,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Name|Action|Date.
+        ///   Busca una cadena traducida similar a Nombre | Acción | Fecha.
         /// </summary>
         public static string UpdateHistoryHeadersText {
             get {
