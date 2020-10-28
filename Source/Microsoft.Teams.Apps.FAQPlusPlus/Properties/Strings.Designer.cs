@@ -196,7 +196,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Chat with {0}.
+        ///   Busca una cadena traducida similar a Chatea con {0}.
         /// </summary>
         public static string ChatTextButton {
             get {
@@ -241,7 +241,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a I didn&apos;t find a matching answer for this question. Do you want me to ask an expert?.
+        ///   Busca una cadena traducida similar a No encontré una respuesta para tu consulta. ¿Quieres que le pregunte a un Asesor RH?.
         /// </summary>
         public static string CustomMessage {
             get {
@@ -592,7 +592,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a I&apos;ve shared your question with the team. An expert will reach out to you soon in a separate chat..
+        ///   Busca una cadena traducida similar a Acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat..
         /// </summary>
         public static string NotificationCardContent {
             get {
@@ -637,7 +637,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Question asked:.
+        ///   Busca una cadena traducida similar a Consulta realizada:.
         /// </summary>
         public static string QuestionAskedFactTitle {
             get {
@@ -646,7 +646,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a **{0}** is requesting support..
+        ///   Busca una cadena traducida similar a **{0}** solicita ayuda..
         /// </summary>
         public static string QuestionForExpertSubHeaderText {
             get {
@@ -934,7 +934,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Team tour.
+        ///   Busca una cadena traducida similar a Tour del equipo.
         /// </summary>
         public static string TakeATeamTourButtonText {
             get {
@@ -952,7 +952,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Click chat with user button to initiate a direct chat..
+        ///   Busca una cadena traducida similar a Dá un clic en el botón de chat con el usuario para iniciar un chat directo..
         /// </summary>
         public static string TeamChatContent {
             get {
@@ -961,7 +961,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Initiate chat with end users.
+        ///   Busca una cadena traducida similar a Iniciar chat con usuarios.
         /// </summary>
         public static string TeamChatHeaderText {
             get {
@@ -979,7 +979,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a You can see what users need help with..
+        ///   Busca una cadena traducida similar a Puedes ver que tipo de ayuda necesitan los usuarios..
         /// </summary>
         public static string TeamNotificationContent {
             get {
@@ -988,7 +988,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Receive notifications from end users.
+        ///   Busca una cadena traducida similar a Recibe notificaciones de usuarios finales.
         /// </summary>
         public static string TeamNotificationHeaderText {
             get {
@@ -997,7 +997,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mark requests assigned or closed to keep track of queries..
+        ///   Busca una cadena traducida similar a Seleccione consultas asignadas o cerradas para el seguimiento de las consultas..
         /// </summary>
         public static string TeamTicketSystemContent {
             get {
@@ -1006,7 +1006,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Manage queries.
+        ///   Busca una cadena traducida similar a Administración de consultas.
         /// </summary>
         public static string TeamTicketSystemHeaderText {
             get {
@@ -1015,7 +1015,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Thanks for your feedback! I&apos;ve shared it with the experts. This helps me learn and improve..
+        ///   Busca una cadena traducida similar a ¡Gracias por tus comentarios! Los compartire con los Asesores RH. Esto me ayuda a aprender y mejorar..
         /// </summary>
         public static string ThankYouTextContent {
             get {
