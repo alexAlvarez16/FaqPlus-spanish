@@ -178,7 +178,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Back.
+        ///   Busca una cadena traducida similar a Regresar.
         /// </summary>
         public static string BackButtonText {
             get {
@@ -304,7 +304,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a *Description (Markdown supported).
+        ///   Busca una cadena traducida similar a *Descripción (Markdown compatible).
         /// </summary>
         public static string DescriptionLabelText {
             get {
@@ -520,7 +520,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Redirect URL is not valid..
+        ///   Busca una cadena traducida similar a La URL de redireccionamiento no es válido..
         /// </summary>
         public static string InvalidRedirectUrlText {
             get {
@@ -655,7 +655,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a *Question.
+        ///   Busca una cadena traducida similar a *Pregunta.
         /// </summary>
         public static string QuestionLabelText {
             get {
@@ -916,7 +916,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (20 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 20 caracteres).
         /// </summary>
         public static string SubtitlePlaceholderText {
             get {
@@ -1042,7 +1042,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (50 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 50 caracteres).
         /// </summary>
         public static string TitlePlaceholderText {
             get {

@@ -504,28 +504,28 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Marcador de posición de texto para el cuadro de texto redirección de url.</comment>
   </data>
   <data name="SubtitlePlaceholderText" xml:space="preserve">
-    <value>Enter information (20 characters max)</value>
-    <comment>Placeholder text for subtitle text box.</comment>
+    <value>Ingresa la información (Máximo 20 caracteres)</value>
+    <comment>Marcador de posición de texto para el cuadro subtítulo.</comment>
   </data>
   <data name="TitlePlaceholderText" xml:space="preserve">
-    <value>Enter information (50 characters max)</value>
-    <comment>Placeholder text for title text box.</comment>
+    <value>Ingresa la información (Máximo 50 caracteres)</value>
+    <comment>Marcador de posición de texto para el cuadro de texto título.</comment>
   </data>
   <data name="BackButtonText" xml:space="preserve">
-    <value>Back</value>
-    <comment>The back button text on the add/edit QnA pair task module, while previewing the card.</comment>
+    <value>Regresar</value>
+    <comment>El texto del botón regresar en el módulo de tareas agregar / editar del QnA pair, cuando se realiza la vista previa de la tarjeta.</comment>
   </data>
   <data name="InvalidRedirectUrlText" xml:space="preserve">
-    <value>Redirect URL is not valid.</value>
-    <comment>Error message to show if redirection url is not valid while adding or editing the QnA pair.</comment>
+    <value>La URL de redireccionamiento no es válido.</value>
+    <comment>Mensaje de error para mostrar si la URL de redirección no es válida al agregar o editar un QnA pair.</comment>
   </data>
   <data name="DescriptionLabelText" xml:space="preserve">
-    <value>*Description (Markdown supported)</value>
-    <comment>Label text for description text box.</comment>
+    <value>*Descripción (Markdown compatible)</value>
+    <comment>Etiqueta de texto para el cuadro de texto Descripción.</comment>
   </data>
   <data name="QuestionLabelText" xml:space="preserve">
-    <value>*Question</value>
-    <comment>Label text for question text box.</comment>
+    <value>*Pregunta</value>
+    <comment>Etiqueta de texto para el cuadro de texto pregunta.</comment>
   </data>
   <data name="TitleLabelText" xml:space="preserve">
     <value>Title (Markdown supported)</value>
