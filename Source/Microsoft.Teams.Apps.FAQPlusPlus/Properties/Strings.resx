@@ -264,52 +264,52 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Texto de visualización de pregunta a un Asesor RH: texto enviado al bot cuando se hace clic en el botón pregunta a un Asesor RH.</comment>
   </data>
   <data name="ShareFeedbackDisplayText" xml:space="preserve">
-    <value>Compartir retroalimentación</value>
-    <comment>Texto de visualización de comparte tu retroalimentación: texto enviado al bot cuando se hace clic en el botón comparte retroalimentación.</comment>
+    <value>Share feedback</value>
+    <comment>Share feedback display text: text sent to the bot when share feedback button is clicked.</comment>
   </data>
   <data name="SMEAssignedStatus" xml:space="preserve">
-    <value>Esta solicitud ha sido asignada. Asignada a {0}.</value>
-    <comment>Mensaje publicado en la solicitud cuando se asigna el ticket. {0} = nombre de SME que asignó la solicitud.</comment>
+    <value>This request is now assigned. Assigned to {0}.</value>
+    <comment>Message posted to the thread when the ticket is assigned. {0} = name of SME who assigned the request.</comment>
   </data>
   <data name="SMEClosedStatus" xml:space="preserve">
-    <value>Esta solicitud ha sido cerrada. Fue cerrada por {0}.</value>
-    <comment>Mensaje publicado en la solicitud cuando se cierra el ticket. {0} = nombre de SME que cerró la solicitud.</comment>
+    <value>This request is now closed. Closed by {0}.</value>
+    <comment>Message posted to the thread when the ticket is closed. {0} = name of SME who closed the request.</comment>
   </data>
   <data name="SMEOpenedStatus" xml:space="preserve">
-    <value>This request is now unassigned. Last updated by {0}. </value>
-    <comment>Mensaje publicado en la solicitud cuando el ticket es reabierto. {0} = nombre de SME que reabrió la solicitud.</comment>
+    <value>This request is now unassigned. Last updated by {0}. </value>
+    <comment>Message posted to the thread when the ticket is reopened. {0} = name of SME who reopened the request.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat.</value>
-    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes es asignado a un Asesor RH.</comment>
+    <value>Your question has been assigned to an expert. They'll respond to you directly with a chat message.</value>
+    <comment>Notification text sent to the user who opened a ticket, when the ticket is assigned to an expert.</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
-    <value>Esta solicitud ha sido cerrada. Pregnta a un Asesor RH nuevamente si necesitas mas ayuda.</value>
-    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
+    <value>This request has been closed. Ask an expert again if you still need more assistance.</value>
+    <comment>Notification text sent to the user who opened a ticket, when the ticket is closed.</comment>
   </data>
   <data name="ReopenedTicketUserNotification" xml:space="preserve">
-    <value>Tu solicitud está abierta nuevamente. Un Asesor RH te enviará un mensaje en otro chat.</value>
-    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
+    <value>Your request is open again. An expert will directly send you a chat message.</value>
+    <comment>Notification text sent to the user who opened a ticket, when the ticket is reopened.</comment>
   </data>
   <data name="GoToOriginalThreadButtonText" xml:space="preserve">
-    <value>Ir a la solicitud original</value>
-    <comment>Ir al botón de la solicitud original disponible en el mensaje de la tarjeta de extensión.</comment>
+    <value>Go to original thread</value>
+    <comment>Go to original thread button available on messaging extension card.</comment>
   </data>
   <data name="NonSMEErrorText" xml:space="preserve">
-    <value>La extensión del mensajería solo puede ser invocado desde el canal en el cual la aplicación está instalada</value>
-    <comment>Mensaje de error cuando un usuario que no pertenece al equipo SME intenta accesar a la aplicación de extensión de mensajería</comment>
+    <value>The messaging extension can only be invoked from the channel in which the  app is installed</value>
+    <comment>Error message when a user of non-SME team tries to access messaging extension application</comment>
   </data>
   <data name="AssignedUserNotificationStatus" xml:space="preserve">
-    <value>Asignado</value>
-    <comment>El valor del estatus de las notificaciones para el usuario cuando un ticket ha sido asignado a un Asesor RH.</comment>
+    <value>Assigned</value>
+    <comment>The status value for the user notification when a ticket is assigned to an expert</comment>
   </data>
   <data name="ClosedUserNotificationStatus" xml:space="preserve">
-    <value>Cerrado</value>
-    <comment>El valor del estatus de las notificaciones para usuario cuando un ticket ha sido cerrado por Asesro RH.</comment>
+    <value>Closed</value>
+    <comment>The status value for the user notification when a ticket is closed by an expert.</comment>
   </data>
   <data name="UnassignedUserNotificationStatus" xml:space="preserve">
-    <value>Sin asignar</value>
-    <comment>El valor del estatus de las notificaciones para usuario cuando un ticket ha sido asignado.</comment>
+    <value>Unassigned</value>
+    <comment>The status value for the user notification when a ticket is unassigned</comment>
   </data>
   <data name="SMEUserChatMessage" xml:space="preserve">
     <value>RE: {0}</value>
