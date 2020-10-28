@@ -115,7 +115,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a One of our experts will reach out to you soon..
+        ///   Busca una cadena traducida similar a Dentro de poco un Asesor RH se pondrá en contacto contigo..
         /// </summary>
         public static string AskAnExpertSubheaderText {
             get {
@@ -295,7 +295,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Description:.
+        ///   Busca una cadena traducida similar a Descripción:.
         /// </summary>
         public static string DescriptionFact {
             get {
@@ -421,7 +421,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Was this answer helpful? (Required).
+        ///   Busca una cadena traducida similar a Te ha sido de utilidad esta respuesta? (Requerido).
         /// </summary>
         public static string FeedbackRatingRequired {
             get {
@@ -475,7 +475,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Helpful.
+        ///   Busca una cadena traducida similar a Útil.
         /// </summary>
         public static string HelpfulRatingText {
             get {
@@ -556,7 +556,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Needs Improvement.
+        ///   Busca una cadena traducida similar a Necesita Mejorar.
         /// </summary>
         public static string NeedsImprovementRatingText {
             get {
@@ -583,7 +583,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Not helpful.
+        ///   Busca una cadena traducida similar a No es útil.
         /// </summary>
         public static string NotHelpfulRatingText {
             get {
@@ -682,7 +682,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Rating is mandatory.
+        ///   Busca una cadena traducida similar a La calificación es obligatoria.
         /// </summary>
         public static string RatingMandatoryText {
             get {
@@ -691,7 +691,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Rating.
+        ///   Busca una cadena traducida similar a Calificación.
         /// </summary>
         public static string RatingTitle {
             get {
@@ -844,7 +844,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Feedback.
+        ///   Busca una cadena traducida similar a Retroalimentación.
         /// </summary>
         public static string SMEFeedbackHeaderText {
             get {
@@ -880,7 +880,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Unassigned.
+        ///   Busca una cadena traducida similar a Sin asignar.
         /// </summary>
         public static string SMETicketUnassignedStatus {
             get {
@@ -943,7 +943,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Take a tour.
+        ///   Busca una cadena traducida similar a Tomar el tour.
         /// </summary>
         public static string TakeATourButtonText {
             get {
@@ -1024,7 +1024,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title:.
+        ///   Busca una cadena traducida similar a Título:.
         /// </summary>
         public static string TitleFact {
             get {
@@ -1051,7 +1051,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title (Required).
+        ///   Busca una cadena traducida similar a Título (Requerido).
         /// </summary>
         public static string TitleRequiredText {
             get {
@@ -1105,7 +1105,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a View article.
+        ///   Busca una cadena traducida similar a Ver artículo.
         /// </summary>
         public static string ViewArticleButtonText {
             get {

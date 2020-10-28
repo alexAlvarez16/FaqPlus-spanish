@@ -344,60 +344,60 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Este valor representa el ticket SME en el estatus Cerrado.</comment>
   </data>
   <data name="SMETicketUnassignedStatus" xml:space="preserve">
-    <value>Unassigned</value>
-    <comment>This value represents the SME Ticket in the Unassigned status</comment>
+    <value>Sin asignar</value>
+    <comment>Este valor representa el ticket SME en el estatus Sin asignar.</comment>
   </data>
   <data name="AskAnExpertSubheaderText" xml:space="preserve">
-    <value>One of our experts will reach out to you soon.</value>
-    <comment>Ask en expert card subtitle text:lets the user know that SME team member can directly chat with the requester.</comment>
+    <value>Dentro de poco un Asesor RH se pondrá en contacto contigo.</value>
+    <comment>Texto de subtítulo de la tarjeta pregunta a un Asesor RH: permite al usuario saber que un miembro del equipo SME puede comunicarse directamente.</comment>
   </data>
   <data name="DescriptionFact" xml:space="preserve">
-    <value>Description:</value>
-    <comment>Available factset in user notification and SME facing cards.</comment>
+    <value>Descripción:</value>
+    <comment>Conjunto de hechos disponibles en las notificaciones de los usuarios y enfrente de tarjetas SME.</comment>
   </data>
   <data name="FeedbackRatingRequired" xml:space="preserve">
-    <value>Was this answer helpful? (Required)</value>
-    <comment>Feedback(Required): label for the feedback rating dropdown.</comment>
+    <value>Te ha sido de utilidad esta respuesta? (Requerido)</value>
+    <comment>Retroalimentación (Requerido): etiqueta de opción desplegable para calificar la retroalimentación.</comment>
   </data>
   <data name="HelpfulRatingText" xml:space="preserve">
-    <value>Helpful</value>
-    <comment>Helpful: available feedback rating scale.</comment>
+    <value>Útil</value>
+    <comment>Útil: Escala de retroalimentación disponible.</comment>
   </data>
   <data name="NeedsImprovementRatingText" xml:space="preserve">
-    <value>Needs Improvement</value>
-    <comment>Needs improvement: available feedback rating scale.</comment>
+    <value>Necesita Mejorar</value>
+    <comment>Necesita Mejorar: Escala de retroalimentación disponible.</comment>
   </data>
   <data name="RatingTitle" xml:space="preserve">
-    <value>Rating</value>
-    <comment>Rating fact is used in SME facing feedback card to show the rating submitted by the user from the rating dropdown in share feedback card.</comment>
+    <value>Calificación</value>
+    <comment>El hecho de calificación se utiliza en la tarjeta de retroalimentación de SME para mostrar la calificación enviada por el usuario desde menú desplegable en la tarjeta de retroalimentación.</comment>
   </data>
   <data name="RatingMandatoryText" xml:space="preserve">
-    <value>Rating is mandatory</value>
-    <comment>Rating is mandatory , a warning message to the user when rating is not submitted in share feedback activity.</comment>
+    <value>La calificación es obligatoria</value>
+    <comment>Rating is mandatory , a warning message to the user when rating is not submitted in share feedback activity.</comment>
   </data>
   <data name="TakeATourButtonText" xml:space="preserve">
-    <value>Take a tour</value>
-    <comment>Take a tour button available for the users on welcome card, through which user can take a tour on bot functionalities in personal scope. </comment>
+    <value>Tomar el tour</value>
+    <comment>Botón disponible Tomar el tour para los usuarios en la tarjeta de bienvenida, a través del cual el usuario puede tomar el tour por las funcionalidades del bot. </comment>
   </data>
   <data name="TitleFact" xml:space="preserve">
-    <value>Title:</value>
-    <comment>Title fact is used to show the title entered by the user for his inquiry.</comment>
+    <value>Título:</value>
+    <comment>El hecho Título se usa para mostrar el título ingresado por el usuario en su consulta.</comment>
   </data>
   <data name="TitleRequiredText" xml:space="preserve">
-    <value>Title (Required)</value>
-    <comment>Title(Required): label of the title text box.</comment>
+    <value>Título (Requerido)</value>
+    <comment>Título (Requerido): etiqueta del cuadro de texto del título.</comment>
   </data>
   <data name="NotHelpfulRatingText" xml:space="preserve">
-    <value>Not helpful</value>
-    <comment>Unhelpful: available feedback rating scale.</comment>
+    <value>No es útil</value>
+    <comment>No es útil: escala de retroalimentación disponible.</comment>
   </data>
   <data name="ViewArticleButtonText" xml:space="preserve">
-    <value>View article</value>
-    <comment>The necessary string for the view article button</comment>
+    <value>Ver artículo</value>
+    <comment>Cadena necesaria para el botón ver artículo</comment>
   </data>
   <data name="SMEFeedbackHeaderText" xml:space="preserve">
-    <value>Feedback</value>
-    <comment>Title text for SME facing feedback card.</comment>
+    <value>Retroalimentación</value>
+    <comment>Título de texto para la tarjeta SME de retroalimentación.</comment>
   </data>
   <data name="EmptyQuestionErrorText" xml:space="preserve">
     <value>Question text cannot be empty.</value>
