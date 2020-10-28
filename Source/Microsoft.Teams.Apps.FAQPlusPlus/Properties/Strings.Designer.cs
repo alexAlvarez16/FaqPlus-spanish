@@ -88,7 +88,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Pregunta a un experto.
+        ///   Busca una cadena traducida similar a Ask an expert.
         /// </summary>
         public static string AskAnExpertButtonText {
             get {
@@ -106,7 +106,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Type your detailed question and supporting details here (500 characters max).
+        ///   Busca una cadena traducida similar a Escribe tu pregunta con todo el detalle posible en este espacio (500 caracteres como máximo).
         /// </summary>
         public static string AskAnExpertPlaceholderText {
             get {
@@ -133,7 +133,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Pregunta a un asesor.
+        ///   Busca una cadena traducida similar a Pregunta a un Asesor RH.
         /// </summary>
         public static string AskAnExpertTitleText {
             get {
