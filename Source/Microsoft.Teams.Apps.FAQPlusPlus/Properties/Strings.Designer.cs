@@ -142,7 +142,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your question has been assigned to an expert. They&apos;ll respond to you directly with a chat message..
+        ///   Busca una cadena traducida similar a Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat..
         /// </summary>
         public static string AssignedTicketUserNotification {
             get {
@@ -223,7 +223,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request has been closed. Ask an expert again if you still need more assistance..
+        ///   Busca una cadena traducida similar a Esta solicitud ha sido cerrada. Pregnta a un Asesor RH nuevamente si necesitas mas ayuda..
         /// </summary>
         public static string ClosedTicketUserNotification {
             get {
@@ -457,7 +457,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Go to original thread.
+        ///   Busca una cadena traducida similar a Ir a la solicitud original.
         /// </summary>
         public static string GoToOriginalThreadButtonText {
             get {
@@ -574,7 +574,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The messaging extension can only be invoked from the channel in which the  app is installed.
+        ///   Busca una cadena traducida similar a La extensión del mensajería solo puede ser invocado desde el canal en el cual la aplicación está instalada.
         /// </summary>
         public static string NonSMEErrorText {
             get {
@@ -736,7 +736,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your request is open again. An expert will directly send you a chat message..
+        ///   Busca una cadena traducida similar a Tu solicitud está abierta nuevamente. Un Asesor RH te enviará un mensaje en otro chat..
         /// </summary>
         public static string ReopenedTicketUserNotification {
             get {

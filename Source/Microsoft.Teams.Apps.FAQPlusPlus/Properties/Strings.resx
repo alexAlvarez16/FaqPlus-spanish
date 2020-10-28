@@ -280,24 +280,24 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Mensaje publicado en la solicitud cuando el ticket es reabierto. {0} = nombre de SME que reabrió la solicitud.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>Your question has been assigned to an expert. They'll respond to you directly with a chat message.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is assigned to an expert.</comment>
+    <value>Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickets es asignado a un Asesor RH.</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
-    <value>This request has been closed. Ask an expert again if you still need more assistance.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is closed.</comment>
+    <value>Esta solicitud ha sido cerrada. Pregnta a un Asesor RH nuevamente si necesitas mas ayuda.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
   </data>
   <data name="ReopenedTicketUserNotification" xml:space="preserve">
-    <value>Your request is open again. An expert will directly send you a chat message.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is reopened.</comment>
+    <value>Tu solicitud está abierta nuevamente. Un Asesor RH te enviará un mensaje en otro chat.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
   </data>
   <data name="GoToOriginalThreadButtonText" xml:space="preserve">
-    <value>Go to original thread</value>
-    <comment>Go to original thread button available on messaging extension card.</comment>
+    <value>Ir a la solicitud original</value>
+    <comment>Ir al botón de la solicitud original disponible en el mensaje de la tarjeta de extensión.</comment>
   </data>
   <data name="NonSMEErrorText" xml:space="preserve">
-    <value>The messaging extension can only be invoked from the channel in which the  app is installed</value>
-    <comment>Error message when a user of non-SME team tries to access messaging extension application</comment>
+    <value>La extensión del mensajería solo puede ser invocado desde el canal en el cual la aplicación está instalada</value>
+    <comment>Mensaje de error cuando un usuario que no pertenece al equipo SME intenta accesar a la aplicación de extensión de mensajería</comment>
   </data>
   <data name="AssignedUserNotificationStatus" xml:space="preserve">
     <value>Assigned</value>
