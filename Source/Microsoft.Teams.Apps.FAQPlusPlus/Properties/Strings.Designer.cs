@@ -97,7 +97,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ask an expert.
+        ///   Busca una cadena traducida similar a Pregunta a un Asesor RH.
         /// </summary>
         public static string AskAnExpertDisplayText {
             get {
@@ -142,7 +142,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your question has been assigned to an expert. They&apos;ll respond to you directly with a chat message..
+        ///   Busca una cadena traducida similar a Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat..
         /// </summary>
         public static string AssignedTicketUserNotification {
             get {
@@ -151,7 +151,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Assigned.
+        ///   Busca una cadena traducida similar a Asignado.
         /// </summary>
         public static string AssignedUserNotificationStatus {
             get {
@@ -187,7 +187,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Change status.
+        ///   Busca una cadena traducida similar a Cambiar estatus.
         /// </summary>
         public static string ChangeStatusButtonText {
             get {
@@ -214,7 +214,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Closed: .
+        ///   Busca una cadena traducida similar a Cerrado: .
         /// </summary>
         public static string ClosedFactTitle {
             get {
@@ -223,7 +223,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request has been closed. Ask an expert again if you still need more assistance..
+        ///   Busca una cadena traducida similar a Esta solicitud ha sido cerrada. Pregnta a un Asesor RH nuevamente si necesitas mas ayuda..
         /// </summary>
         public static string ClosedTicketUserNotification {
             get {
@@ -232,7 +232,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Closed.
+        ///   Busca una cadena traducida similar a Cerrado.
         /// </summary>
         public static string ClosedUserNotificationStatus {
             get {
@@ -250,7 +250,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Created: .
+        ///   Busca una cadena traducida similar a Creado: .
         /// </summary>
         public static string DateCreatedDisplayFactTitle {
             get {
@@ -403,7 +403,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a **{0}** has shared the feedback.
+        ///   Busca una cadena traducida similar a **{0}** ha compartido su retroalimentación..
         /// </summary>
         public static string FeedbackAlertText {
             get {
@@ -457,7 +457,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Go to original thread.
+        ///   Busca una cadena traducida similar a Ir a la solicitud original.
         /// </summary>
         public static string GoToOriginalThreadButtonText {
             get {
@@ -538,7 +538,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title field is mandatory..
+        ///   Busca una cadena traducida similar a El campo de título es obligatorio..
         /// </summary>
         public static string MandatoryTitleFieldText {
             get {
@@ -574,7 +574,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The messaging extension can only be invoked from the channel in which the  app is installed.
+        ///   Busca una cadena traducida similar a La extensión del mensajería solo puede ser invocado desde el canal en el cual la aplicación está instalada.
         /// </summary>
         public static string NonSMEErrorText {
             get {
@@ -736,7 +736,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your request is open again. An expert will directly send you a chat message..
+        ///   Busca una cadena traducida similar a Tu solicitud está abierta nuevamente. Un Asesor RH te enviará un mensaje en otro chat..
         /// </summary>
         public static string ReopenedTicketUserNotification {
             get {
@@ -745,7 +745,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Here&apos;s what I found:.
+        ///   Busca una cadena traducida similar a Aquí está lo que encontré:.
         /// </summary>
         public static string ResponseHeaderText {
             get {
@@ -754,7 +754,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Feedback.
+        ///   Busca una cadena traducida similar a Retroalimentación.
         /// </summary>
         public static string ResultsFeedbackText {
             get {
@@ -799,7 +799,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Share feedback.
+        ///   Busca una cadena traducida similar a Compartir retroalimentación.
         /// </summary>
         public static string ShareFeedbackDisplayText {
             get {
@@ -808,7 +808,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Share app feedback.
+        ///   Busca una cadena traducida similar a Compartir retroalimentación sobre el chatbot..
         /// </summary>
         public static string ShareFeedbackTitleText {
             get {
@@ -817,7 +817,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Type a short title (50 characters max).
+        ///   Busca una cadena traducida similar a Escribe un título corto (50 caracteres máximo).
         /// </summary>
         public static string ShowCardTitleText {
             get {
@@ -826,7 +826,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request is now assigned. Assigned to {0}..
+        ///   Busca una cadena traducida similar a Esta solicitud ha sido asignada. Asignada a {0}..
         /// </summary>
         public static string SMEAssignedStatus {
             get {
@@ -835,7 +835,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request is now closed. Closed by {0}..
+        ///   Busca una cadena traducida similar a Esta solicitud ha sido cerrada. Fue cerrada por {0}..
         /// </summary>
         public static string SMEClosedStatus {
             get {
@@ -853,7 +853,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request is now unassigned. Last updated by {0}. .
+        ///   Busca una cadena traducida similar a This request is now unassigned. Last updated by {0}. .
         /// </summary>
         public static string SMEOpenedStatus {
             get {
@@ -970,7 +970,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a I&apos;m unable to respond to commands in channels. Take a quick tour to learn what I can do..
+        ///   Busca una cadena traducida similar a No puedo responder a comandos dentro de los canales. Toma un tour rápido de mis capacidades..
         /// </summary>
         public static string TeamCustomMessage {
             get {
@@ -1069,7 +1069,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Unassigned.
+        ///   Busca una cadena traducida similar a Sin asignar.
         /// </summary>
         public static string UnassignedUserNotificationStatus {
             get {

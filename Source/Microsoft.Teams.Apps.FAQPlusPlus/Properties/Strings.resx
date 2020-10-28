@@ -220,96 +220,96 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>El texto dice que el usuario está haciendo una pregunta al Asesor Rh, el marcador de posición {0} contiene el nombre de la persona.</comment>
   </data>
   <data name="TeamCustomMessage" xml:space="preserve">
-    <value>I'm unable to respond to commands in channels. Take a quick tour to learn what I can do.</value>
-    <comment>When SME team member asks bot a questions- a message appears saying that team member is supposed to install the bot in personal scope.</comment>
+    <value>No puedo responder a comandos dentro de los canales. Toma un tour rápido de mis capacidades.</value>
+    <comment>Cuando un miembro del equipo de SME le hace una pregunta al bot- Aparece un mensaje diciendo que el miembro del equipo debe instalar el bot desde ámbito de usuario.</comment>
   </data>
   <data name="ChangeStatusButtonText" xml:space="preserve">
-    <value>Change status</value>
-    <comment>Text on change status button.</comment>
+    <value>Cambiar estatus</value>
+    <comment>Texto en el boton de cambiar estatus.</comment>
   </data>
   <data name="ResponseHeaderText" xml:space="preserve">
-    <value>Here's what I found:</value>
-    <comment>Response header-letting the user know that a response is generated to their request from QnA Maker.</comment>
+    <value>Aquí está lo que encontré:</value>
+    <comment>Encabezado de respuesta- permite al usuario conocer que se ha generado una respuesta desde el QnA Maker.</comment>
   </data>
   <data name="ClosedFactTitle" xml:space="preserve">
-    <value>Closed: </value>
-    <comment>Closed fact title is one of the available fact set.</comment>
+    <value>Cerrado: </value>
+    <comment>El título de hechos cerrado es uno de los conjuntos de hechos configurables.</comment>
   </data>
   <data name="DateCreatedDisplayFactTitle" xml:space="preserve">
-    <value>Created: </value>
-    <comment>Created: one of the available fact set in notification cards- created is the title for created date value.</comment>
+    <value>Creado: </value>
+    <comment>Creado: uno de los hechos disponibles establecidos en las tarjetas de notificación- creado es el título del valor de la fecha de creación.</comment>
   </data>
   <data name="ShowCardTitleText" xml:space="preserve">
-    <value>Type a short title (50 characters max)</value>
-    <comment>Label text where users enters title for his question or feedback. </comment>
+    <value>Escribe un título corto (50 caracteres máximo)</value>
+    <comment>Etiqueta de texto donde el usuario escribe el título para sus consultas o comentarios. </comment>
   </data>
   <data name="MandatoryTitleFieldText" xml:space="preserve">
-    <value>Title field is mandatory.</value>
-    <comment>Text that suggest users to fill mandatory fields.</comment>
+    <value>El campo de título es obligatorio.</value>
+    <comment>Texto que sugiere al usuario llenar los campos obligatorios.</comment>
   </data>
   <data name="ResultsFeedbackText" xml:space="preserve">
-    <value>Feedback</value>
-    <comment>This text is used as title for results feedback card.</comment>
+    <value>Retroalimentación</value>
+    <comment>Este texto es usado como título para los resultados de la tarjeta de retroalimentación</comment>
   </data>
   <data name="FeedbackAlertText" xml:space="preserve">
-    <value>**{0}** has shared the feedback</value>
-    <comment>Text in the SME feedback card, The placeholder {0} represents the name of the person sharing the feedback. The placeholder {1} represents the feedback type.</comment>
+    <value>**{0}** ha compartido su retroalimentación.</value>
+    <comment>Texto en la tarjeta SME de retroalimentación, el marcador de posición {0} representa el nombre de la persona que está compartiendo su retroalimentación. El marcador de posición {1} representa el tipo de retroalimentación.</comment>
   </data>
   <data name="ShareFeedbackTitleText" xml:space="preserve">
-    <value>Share app feedback</value>
-    <comment>Title text of share feedback user carousel card.</comment>
+    <value>Compartir retroalimentación sobre el chatbot.</value>
+    <comment>Título de texto de la tarjeta carrusel del usuario para compartir retroalimentación.</comment>
   </data>
   <data name="AskAnExpertDisplayText" xml:space="preserve">
-    <value>Ask an expert</value>
-    <comment>Ask an expert display text: text sent to the bot when ask an expert button is clicked.</comment>
+    <value>Pregunta a un Asesor RH</value>
+    <comment>Texto de visualización de pregunta a un Asesor RH: texto enviado al bot cuando se hace clic en el botón pregunta a un Asesor RH.</comment>
   </data>
   <data name="ShareFeedbackDisplayText" xml:space="preserve">
-    <value>Share feedback</value>
-    <comment>Share feedback display text: text sent to the bot when share feedback button is clicked.</comment>
+    <value>Compartir retroalimentación</value>
+    <comment>Texto de visualización de comparte tu retroalimentación: texto enviado al bot cuando se hace clic en el botón comparte retroalimentación.</comment>
   </data>
   <data name="SMEAssignedStatus" xml:space="preserve">
-    <value>This request is now assigned. Assigned to {0}.</value>
-    <comment>Message posted to the thread when the ticket is assigned. {0} = name of SME who assigned the request.</comment>
+    <value>Esta solicitud ha sido asignada. Asignada a {0}.</value>
+    <comment>Mensaje publicado en la solicitud cuando se asigna el ticket. {0} = nombre de SME que asignó la solicitud.</comment>
   </data>
   <data name="SMEClosedStatus" xml:space="preserve">
-    <value>This request is now closed. Closed by {0}.</value>
-    <comment>Message posted to the thread when the ticket is closed. {0} = name of SME who closed the request.</comment>
+    <value>Esta solicitud ha sido cerrada. Fue cerrada por {0}.</value>
+    <comment>Mensaje publicado en la solicitud cuando se cierra el ticket. {0} = nombre de SME que cerró la solicitud.</comment>
   </data>
   <data name="SMEOpenedStatus" xml:space="preserve">
-    <value>This request is now unassigned. Last updated by {0}. </value>
-    <comment>Message posted to the thread when the ticket is reopened. {0} = name of SME who reopened the request.</comment>
+    <value>This request is now unassigned. Last updated by {0}. </value>
+    <comment>Mensaje publicado en la solicitud cuando el ticket es reabierto. {0} = nombre de SME que reabrió la solicitud.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>Your question has been assigned to an expert. They'll respond to you directly with a chat message.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is assigned to an expert.</comment>
+    <value>Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes es asignado a un Asesor RH.</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
-    <value>This request has been closed. Ask an expert again if you still need more assistance.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is closed.</comment>
+    <value>Esta solicitud ha sido cerrada. Pregnta a un Asesor RH nuevamente si necesitas mas ayuda.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
   </data>
   <data name="ReopenedTicketUserNotification" xml:space="preserve">
-    <value>Your request is open again. An expert will directly send you a chat message.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is reopened.</comment>
+    <value>Tu solicitud está abierta nuevamente. Un Asesor RH te enviará un mensaje en otro chat.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
   </data>
   <data name="GoToOriginalThreadButtonText" xml:space="preserve">
-    <value>Go to original thread</value>
-    <comment>Go to original thread button available on messaging extension card.</comment>
+    <value>Ir a la solicitud original</value>
+    <comment>Ir al botón de la solicitud original disponible en el mensaje de la tarjeta de extensión.</comment>
   </data>
   <data name="NonSMEErrorText" xml:space="preserve">
-    <value>The messaging extension can only be invoked from the channel in which the  app is installed</value>
-    <comment>Error message when a user of non-SME team tries to access messaging extension application</comment>
+    <value>La extensión del mensajería solo puede ser invocado desde el canal en el cual la aplicación está instalada</value>
+    <comment>Mensaje de error cuando un usuario que no pertenece al equipo SME intenta accesar a la aplicación de extensión de mensajería</comment>
   </data>
   <data name="AssignedUserNotificationStatus" xml:space="preserve">
-    <value>Assigned</value>
-    <comment>The status value for the user notification when a ticket is assigned to an expert</comment>
+    <value>Asignado</value>
+    <comment>El valor del estatus de las notificaciones para el usuario cuando un ticket ha sido asignado a un Asesor RH.</comment>
   </data>
   <data name="ClosedUserNotificationStatus" xml:space="preserve">
-    <value>Closed</value>
-    <comment>The status value for the user notification when a ticket is closed by an expert.</comment>
+    <value>Cerrado</value>
+    <comment>El valor del estatus de las notificaciones para usuario cuando un ticket ha sido cerrado por Asesro RH.</comment>
   </data>
   <data name="UnassignedUserNotificationStatus" xml:space="preserve">
-    <value>Unassigned</value>
-    <comment>The status value for the user notification when a ticket is unassigned</comment>
+    <value>Sin asignar</value>
+    <comment>El valor del estatus de las notificaciones para usuario cuando un ticket ha sido asignado.</comment>
   </data>
   <data name="SMEUserChatMessage" xml:space="preserve">
     <value>RE: {0}</value>
