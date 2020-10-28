@@ -126,40 +126,40 @@
     <comment>Título de la tarjeta pregunta a un Asesor RH</comment>
   </data>
   <data name="AskAnExpertText2" xml:space="preserve">
-    <value>...If my answer isn't satisfactory... I'll connect you to an expert.</value>
-    <comment>Helps the user in understanding there is an expert team to connect to.</comment>
+    <value>… Si mi respuesta no te ayuda … Te puedo contactar con un Asesor RH.</value>
+    <comment>Explica al colaborador que existe un equipo de asesores RH dispuestos a ayudarle.</comment>
   </data>
   <data name="FeedbackText1" xml:space="preserve">
-    <value>Tell my team of experts how I'm doing so they can help me improve.</value>
-    <comment>Text suggests that user is invited to share his feedback on his experience using bot.</comment>
+    <value>Compartenos tu experiencia de como lo estoy haciendo para que me ayudes a mejorar.</value>
+    <comment>El texto aconseja al colaborador para compartir su experiencia usando el bot.</comment>
   </data>
   <data name="FunctionCardText1" xml:space="preserve">
-    <value>Ask a question</value>
-    <comment>Explains what bot does and possible questions.</comment>
+    <value>Realiza una pregunta</value>
+    <comment>Explica lo que hace el bot y algunas sugerencias para hacerle preguntas.</comment>
   </data>
   <data name="FunctionCardText2" xml:space="preserve">
-    <value>You can simply ask me a question and I will try my best to answer. If there are additional follow-ups, I will bring those as well...</value>
-    <comment>Suggests the user to ask question.</comment>
+    <value>Solo tienes que hacerme una pregunta y yo buscaré la mejor respuesta para ti. Si fuera necesario un seguimiento adicional, te aseguro que lo haré.</value>
+    <comment>Se sugiere al colaborador realizar una pregunta.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
-    <value>Share feedback</value>
-    <comment>Button text for share feedback show card in QnA response card.</comment>
+    <value>Compartenos tu experiencia.</value>
+    <comment>Botón de texto para la tarjeta de compartir retroalimentación de las respuestas de QnA.</comment>
   </data>
   <data name="DescriptionText" xml:space="preserve">
-    <value>Description</value>
-    <comment>Label text for description.</comment>
+    <value>Descripción.</value>
+    <comment>Etiqueta de texto para descripción.</comment>
   </data>
   <data name="FeedbackDescriptionPlaceholderText" xml:space="preserve">
-    <value>Enter your feedback and supporting details here (500 characters max)</value>
-    <comment>Placeholder label where the user enters feedback in the text box.</comment>
+    <value>Escribe tu experiencia con todo el detalle aquí (500 caracteres como maximo)</value>
+    <comment>Marcador de la etiqueta cuando el usuario comparte retroalimentacion en el cuadro de texto.</comment>
   </data>
   <data name="StatusFactTitle" xml:space="preserve">
-    <value>Status: </value>
-    <comment>Status one of the available fact set in notification cards.</comment>
+    <value>Estatus: </value>
+    <comment>Primer estatus de los hechos que fueron establecidos en la tarjeta de notificaciones.</comment>
   </data>
   <data name="AskAnExpertButtonText" xml:space="preserve">
-    <value>Ask an expert</value>
-    <comment>Action button which invokes ask an expert show card.</comment>
+    <value>Pregunta a un Asesor RH</value>
+    <comment>Botón de acción que llama la tarjeta de pregunta a un Asesor RH.</comment>
   </data>
   <data name="ThankYouTextContent" xml:space="preserve">
     <value>Thanks for your feedback! I've shared it with the experts. This helps me learn and improve.</value>

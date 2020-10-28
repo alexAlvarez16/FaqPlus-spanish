@@ -88,7 +88,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ask an expert.
+        ///   Busca una cadena traducida similar a Pregunta a un Asesor RH.
         /// </summary>
         public static string AskAnExpertButtonText {
             get {
@@ -124,7 +124,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ...If my answer isn&apos;t satisfactory... I&apos;ll connect you to an expert..
+        ///   Busca una cadena traducida similar a … Si mi respuesta no te ayuda … Te puedo contactar con un Asesor RH..
         /// </summary>
         public static string AskAnExpertText2 {
             get {
@@ -322,7 +322,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Description.
+        ///   Busca una cadena traducida similar a Descripción..
         /// </summary>
         public static string DescriptionText {
             get {
@@ -412,7 +412,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter your feedback and supporting details here (500 characters max).
+        ///   Busca una cadena traducida similar a Escribe tu experiencia con todo el detalle aquí (500 caracteres como maximo).
         /// </summary>
         public static string FeedbackDescriptionPlaceholderText {
             get {
@@ -430,7 +430,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tell my team of experts how I&apos;m doing so they can help me improve..
+        ///   Busca una cadena traducida similar a Compartenos tu experiencia de como lo estoy haciendo para que me ayudes a mejorar..
         /// </summary>
         public static string FeedbackText1 {
             get {
@@ -439,7 +439,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Ask a question.
+        ///   Busca una cadena traducida similar a Realiza una pregunta.
         /// </summary>
         public static string FunctionCardText1 {
             get {
@@ -448,7 +448,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a You can simply ask me a question and I will try my best to answer. If there are additional follow-ups, I will bring those as well....
+        ///   Busca una cadena traducida similar a Solo tienes que hacerme una pregunta y yo buscaré la mejor respuesta para ti. Si fuera necesario un seguimiento adicional, te aseguro que lo haré..
         /// </summary>
         public static string FunctionCardText2 {
             get {
@@ -790,7 +790,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Share feedback.
+        ///   Busca una cadena traducida similar a Compartenos tu experiencia..
         /// </summary>
         public static string ShareFeedbackButtonText {
             get {
@@ -898,7 +898,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Status: .
+        ///   Busca una cadena traducida similar a Estatus: .
         /// </summary>
         public static string StatusFactTitle {
             get {
