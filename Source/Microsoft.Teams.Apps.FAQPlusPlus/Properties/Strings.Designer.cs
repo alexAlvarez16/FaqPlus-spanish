@@ -79,7 +79,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Type your feedback (500 characters max).
+        ///   Busca una cadena traducida similar a Escribe tu retroalimentación (500 caracteres como máximo).
         /// </summary>
         public static string AppFeedbackDescriptionPlaceholderText {
             get {
@@ -259,7 +259,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a {0} at {1}.
+        ///   Busca una cadena traducida similar a {0} y {1}.
         /// </summary>
         public static string DateFormat {
             get {
@@ -349,7 +349,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Description cannot be empty..
+        ///   Busca una cadena traducida similar a La descripción no puede estar vacía..
         /// </summary>
         public static string EmptyDescriptionErrorText {
             get {
@@ -394,7 +394,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Something went wrong. Please try again later..
+        ///   Busca una cadena traducida similar a Algo salió mal. Por favor, inténtelo de nuevo más tarde..
         /// </summary>
         public static string ErrorMessage {
             get {
@@ -466,7 +466,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a View details.
+        ///   Busca una cadena traducida similar a Ver detalles.
         /// </summary>
         public static string GoToThread {
             get {
@@ -547,7 +547,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Manually added question.
+        ///   Busca una cadena traducida similar a Pregunta agregada manualmente.
         /// </summary>
         public static string ManuallyAddedQuestionMessage {
             get {
@@ -610,7 +610,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Optional Fields.
+        ///   Busca una cadena traducida similar a Campos opcionales.
         /// </summary>
         public static string OptionalFieldDisplayText {
             get {
@@ -619,7 +619,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Preview.
+        ///   Busca una cadena traducida similar a Vista previa.
         /// </summary>
         public static string PreviewButtonText {
             get {
@@ -763,7 +763,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Save.
+        ///   Busca una cadena traducida similar a Guardar.
         /// </summary>
         public static string SaveButtonText {
             get {
@@ -781,7 +781,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a How helpful is this app? (Required).
+        ///   Busca una cadena traducida similar a ¿Qué tan útil te fue esta aplicación? (Necesario).
         /// </summary>
         public static string ShareAppFeedbackRating {
             get {
@@ -925,7 +925,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The optional fields below can be used to add additional details to the answer..
+        ///   Busca una cadena traducida similar a Los campos opcionales a continuación se pueden usar para agregar detalles adicionales a la respuesta..
         /// </summary>
         public static string SuggestedText {
             get {
@@ -1087,7 +1087,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Date.
+        ///   Busca una cadena traducida similar a Fecha.
         /// </summary>
         public static string UpdateHistoryDateHeaderText {
             get {
