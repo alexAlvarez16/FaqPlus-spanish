@@ -504,52 +504,52 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Marcador de posición de texto para el cuadro de texto redirección de url.</comment>
   </data>
   <data name="SubtitlePlaceholderText" xml:space="preserve">
-    <value>Ingresa la información (Máximo 20 caracteres)</value>
-    <comment>Marcador de posición de texto para el cuadro subtítulo.</comment>
+    <value>Enter information (20 characters max)</value>
+    <comment>Placeholder text for subtitle text box.</comment>
   </data>
   <data name="TitlePlaceholderText" xml:space="preserve">
-    <value>Ingresa la información (Máximo 50 caracteres)</value>
-    <comment>Marcador de posición de texto para el cuadro de texto título.</comment>
+    <value>Enter information (50 characters max)</value>
+    <comment>Placeholder text for title text box.</comment>
   </data>
   <data name="BackButtonText" xml:space="preserve">
-    <value>Regresar</value>
-    <comment>El texto del botón regresar en el módulo de tareas agregar / editar del QnA pair, cuando se realiza la vista previa de la tarjeta.</comment>
+    <value>Back</value>
+    <comment>The back button text on the add/edit QnA pair task module, while previewing the card.</comment>
   </data>
   <data name="InvalidRedirectUrlText" xml:space="preserve">
-    <value>La URL de redireccionamiento no es válido.</value>
-    <comment>Mensaje de error para mostrar si la URL de redirección no es válida al agregar o editar un QnA pair.</comment>
+    <value>Redirect URL is not valid.</value>
+    <comment>Error message to show if redirection url is not valid while adding or editing the QnA pair.</comment>
   </data>
   <data name="DescriptionLabelText" xml:space="preserve">
-    <value>*Descripción (Markdown compatible)</value>
-    <comment>Etiqueta de texto para el cuadro de texto Descripción.</comment>
+    <value>*Description (Markdown supported)</value>
+    <comment>Label text for description text box.</comment>
   </data>
   <data name="QuestionLabelText" xml:space="preserve">
-    <value>*Pregunta</value>
-    <comment>Etiqueta de texto para el cuadro de texto pregunta.</comment>
+    <value>*Question</value>
+    <comment>Label text for question text box.</comment>
   </data>
   <data name="TitleLabelText" xml:space="preserve">
-    <value>Título (Markdown compatible)</value>
-    <comment>Etiqueta de texto para el cuadro de texto título.</comment>
+    <value>Title (Markdown supported)</value>
+    <comment>Label text for title text box.</comment>
   </data>
   <data name="ImageLabelText" xml:space="preserve">
-    <value>Imagen URL</value>
-    <comment>Etiqueta de texto para el cuadro de texto de la url de la imagen.</comment>
+    <value>Image URL</value>
+    <comment>Label text for image url text box.</comment>
   </data>
   <data name="RedirectionLabelText" xml:space="preserve">
-    <value>URL de redirección</value>
-    <comment>Etiqueta de texto para el cuadro de texto de la redirección de la url.</comment>
+    <value>Redirection URL</value>
+    <comment>Label text for redirection url text box.</comment>
   </data>
   <data name="SubtitleLabelText" xml:space="preserve">
-    <value>Subtítulo (Markdown apoyado)</value>
-    <comment>Etiqueta de texto para el cuadro de texto subtítulo.</comment>
+    <value>Subtitle (Markdown supported)</value>
+    <comment>Label text for subtitle text box.</comment>
   </data>
   <data name="UpdateHistoryHeadersText" xml:space="preserve">
-    <value>Nombre | Acción | Fecha</value>
-    <comment>Encabezado de texto para la actualización de la adaptive card de historial. Que muestra el historial de acciones realizadas por el usuario en un QnA pair.</comment>
+    <value>Name|Action|Date</value>
+    <comment>Header text for update history adaptiver card. which shows the history of actions performed by users on a QnA pair.</comment>
   </data>
   <data name="EmptyTitleErrorText" xml:space="preserve">
-    <value>El título no puede estar vacío.</value>
-    <comment>Mensaje de error para mostrar si el cuadro de texto del título está vacío al agregar o editar un QnA pair.</comment>
+    <value>Title cannot be empty.</value>
+    <comment>Error message to show if title text box is empty while adding or editing the QnA pair.</comment>
   </data>
   <data name="GoToThread" xml:space="preserve">
     <value>View details</value>
