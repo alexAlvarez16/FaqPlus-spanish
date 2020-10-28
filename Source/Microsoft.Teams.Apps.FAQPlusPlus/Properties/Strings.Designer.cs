@@ -151,7 +151,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Assigned.
+        ///   Busca una cadena traducida similar a Asignado.
         /// </summary>
         public static string AssignedUserNotificationStatus {
             get {
@@ -160,7 +160,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Assign to me.
+        ///   Busca una cadena traducida similar a Asignar a mí.
         /// </summary>
         public static string AssignToMeActionChoiceTitle {
             get {
@@ -205,7 +205,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Close.
+        ///   Busca una cadena traducida similar a Cerrar.
         /// </summary>
         public static string CloseActionChoiceTitle {
             get {
@@ -232,7 +232,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Closed.
+        ///   Busca una cadena traducida similar a Cerrado.
         /// </summary>
         public static string ClosedUserNotificationStatus {
             get {
@@ -718,7 +718,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Reopen.
+        ///   Busca una cadena traducida similar a Reabrir.
         /// </summary>
         public static string ReopenActionChoiceTitle {
             get {
@@ -727,7 +727,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Reopen and assign to me.
+        ///   Busca una cadena traducida similar a Reabrir y asignar a mí.
         /// </summary>
         public static string ReopenAssignToMeActionChoiceTitle {
             get {
@@ -862,7 +862,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Assigned to {0}.
+        ///   Busca una cadena traducida similar a Asignado a {0}.
         /// </summary>
         public static string SMETicketAssignedStatus {
             get {
@@ -871,7 +871,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Closed.
+        ///   Busca una cadena traducida similar a Cerrado.
         /// </summary>
         public static string SMETicketClosedStatus {
             get {
@@ -1060,7 +1060,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Unassign.
+        ///   Busca una cadena traducida similar a Desasignar.
         /// </summary>
         public static string UnassignActionChoiceTitle {
             get {
@@ -1069,7 +1069,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Unassigned.
+        ///   Busca una cadena traducida similar a Sin asignar.
         /// </summary>
         public static string UnassignedUserNotificationStatus {
             get {
