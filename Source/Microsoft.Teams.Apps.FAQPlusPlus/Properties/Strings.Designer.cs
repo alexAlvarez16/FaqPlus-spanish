@@ -376,7 +376,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title cannot be empty..
+        ///   Busca una cadena traducida similar a El título no puede estar vacío..
         /// </summary>
         public static string EmptyTitleErrorText {
             get {
@@ -493,7 +493,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Image URL.
+        ///   Busca una cadena traducida similar a Imagen URL.
         /// </summary>
         public static string ImageLabelText {
             get {
@@ -700,7 +700,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Redirection URL.
+        ///   Busca una cadena traducida similar a URL de redirección.
         /// </summary>
         public static string RedirectionLabelText {
             get {
@@ -907,7 +907,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Subtitle (Markdown supported).
+        ///   Busca una cadena traducida similar a Subtítulo (Markdown apoyado).
         /// </summary>
         public static string SubtitleLabelText {
             get {
@@ -1033,7 +1033,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title (Markdown supported).
+        ///   Busca una cadena traducida similar a Título (Markdown compatible).
         /// </summary>
         public static string TitleLabelText {
             get {
@@ -1096,7 +1096,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Name|Action|Date.
+        ///   Busca una cadena traducida similar a Nombre | Acción | Fecha.
         /// </summary>
         public static string UpdateHistoryHeadersText {
             get {

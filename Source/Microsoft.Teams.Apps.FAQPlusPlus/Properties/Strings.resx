@@ -528,28 +528,28 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Etiqueta de texto para el cuadro de texto pregunta.</comment>
   </data>
   <data name="TitleLabelText" xml:space="preserve">
-    <value>Title (Markdown supported)</value>
-    <comment>Label text for title text box.</comment>
+    <value>Título (Markdown compatible)</value>
+    <comment>Etiqueta de texto para el cuadro de texto título.</comment>
   </data>
   <data name="ImageLabelText" xml:space="preserve">
-    <value>Image URL</value>
-    <comment>Label text for image url text box.</comment>
+    <value>Imagen URL</value>
+    <comment>Etiqueta de texto para el cuadro de texto de la url de la imagen.</comment>
   </data>
   <data name="RedirectionLabelText" xml:space="preserve">
-    <value>Redirection URL</value>
-    <comment>Label text for redirection url text box.</comment>
+    <value>URL de redirección</value>
+    <comment>Label text for redirection url text box.</comment>
   </data>
   <data name="SubtitleLabelText" xml:space="preserve">
-    <value>Subtitle (Markdown supported)</value>
-    <comment>Label text for subtitle text box.</comment>
+    <value>Subtítulo (Markdown apoyado)</value>
+    <comment>Etiqueta de texto para el cuadro de texto subtítulo.</comment>
   </data>
   <data name="UpdateHistoryHeadersText" xml:space="preserve">
-    <value>Name|Action|Date</value>
-    <comment>Header text for update history adaptiver card. which shows the history of actions performed by users on a QnA pair.</comment>
+    <value>Nombre | Acción | Fecha</value>
+    <comment>Encabezado de texto para la actualización de la adaptive card de historial. Que muestra el historial de acciones realizadas por el usuario en un QnA pair.</comment>
   </data>
   <data name="EmptyTitleErrorText" xml:space="preserve">
-    <value>Title cannot be empty.</value>
-    <comment>Error message to show if title text box is empty while adding or editing the QnA pair.</comment>
+    <value>El título no puede estar vacío.</value>
+    <comment>Mensaje de error para mostrar si el cuadro de texto del título está vacío al agregar o editar un QnA pair.</comment>
   </data>
   <data name="GoToThread" xml:space="preserve">
     <value>View details</value>
