@@ -799,7 +799,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Share feedback.
+        ///   Busca una cadena traducida similar a Compartir retroalimentación.
         /// </summary>
         public static string ShareFeedbackDisplayText {
             get {
@@ -826,7 +826,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request is now assigned. Assigned to {0}..
+        ///   Busca una cadena traducida similar a Esta solicitud ha sido asignada. Asignada a {0}..
         /// </summary>
         public static string SMEAssignedStatus {
             get {
@@ -835,7 +835,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request is now closed. Closed by {0}..
+        ///   Busca una cadena traducida similar a Esta solicitud ha sido cerrada. Fue cerrada por {0}..
         /// </summary>
         public static string SMEClosedStatus {
             get {
@@ -853,7 +853,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This request is now unassigned. Last updated by {0}. .
+        ///   Busca una cadena traducida similar a Esta solicitud no ha sido asignada. Última actualización realizada por {0}. .
         /// </summary>
         public static string SMEOpenedStatus {
             get {

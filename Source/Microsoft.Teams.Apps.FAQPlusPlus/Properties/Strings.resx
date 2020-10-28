@@ -264,20 +264,20 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Texto de visualización de pregunta a un Asesor RH: texto enviado al bot cuando se hace clic en el botón pregunta a un Asesor RH.</comment>
   </data>
   <data name="ShareFeedbackDisplayText" xml:space="preserve">
-    <value>Share feedback</value>
-    <comment>Share feedback display text: text sent to the bot when share feedback button is clicked.</comment>
+    <value>Compartir retroalimentación</value>
+    <comment>Texto de visualización de comparte tu retroalimentación: texto enviado al bot cuando se hace clic en el botón comparte retroalimentación.</comment>
   </data>
   <data name="SMEAssignedStatus" xml:space="preserve">
-    <value>This request is now assigned. Assigned to {0}.</value>
-    <comment>Message posted to the thread when the ticket is assigned. {0} = name of SME who assigned the request.</comment>
+    <value>Esta solicitud ha sido asignada. Asignada a {0}.</value>
+    <comment>Mensaje publicado en la solicitud cuando se asigna el ticket. {0} = nombre de SME que asignó la solicitud.</comment>
   </data>
   <data name="SMEClosedStatus" xml:space="preserve">
-    <value>This request is now closed. Closed by {0}.</value>
-    <comment>Message posted to the thread when the ticket is closed. {0} = name of SME who closed the request.</comment>
+    <value>Esta solicitud ha sido cerrada. Fue cerrada por {0}.</value>
+    <comment>Mensaje publicado en la solicitud cuando se cierra el ticket. {0} = nombre de SME que cerró la solicitud.</comment>
   </data>
   <data name="SMEOpenedStatus" xml:space="preserve">
-    <value>This request is now unassigned. Last updated by {0}. </value>
-    <comment>Message posted to the thread when the ticket is reopened. {0} = name of SME who reopened the request.</comment>
+    <value>Esta solicitud no ha sido asignada. Última actualización realizada por {0}. </value>
+    <comment>Mensaje publicado en la solicitud cuando el ticket es reabierto. {0} = nombre de SME que reabrió la solicitud.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
     <value>Your question has been assigned to an expert. They'll respond to you directly with a chat message.</value>
