@@ -61,7 +61,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add new question details.
+        ///   Busca una cadena traducida similar a Agregar nuevos detalles de la pregunta.
         /// </summary>
         public static string AddQuestionSubtitle {
             get {
@@ -169,7 +169,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a BackButton.
+        ///   Busca una cadena traducida similar a Botón de regreso.
         /// </summary>
         public static string BackButtonCommandText {
             get {
@@ -313,7 +313,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (500 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 500 caracteres).
         /// </summary>
         public static string DescriptionPlaceholderText {
             get {
@@ -340,7 +340,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Edit question details.
+        ///   Busca una cadena traducida similar a Editar detalles de la pregunta.
         /// </summary>
         public static string EditQuestionSubtitle {
             get {
@@ -358,7 +358,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Image url can not be empty..
+        ///   Busca una cadena traducida similar a La URL de la imagen no puede estar vacia..
         /// </summary>
         public static string EmptyImageUrlErrorText {
             get {
@@ -385,7 +385,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Created by.
+        ///   Busca una cadena traducida similar a Creado por.
         /// </summary>
         public static string EntryCreatedByText {
             get {
@@ -484,7 +484,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a HTML tags are not supported..
+        ///   Busca una cadena traducida similar a No soporta los tags de HTML..
         /// </summary>
         public static string HTMLErrorText {
             get {
@@ -502,7 +502,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter image URL (200 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la URL de imagen (Máximo 200 caracteres).
         /// </summary>
         public static string ImageUrlPlaceholderText {
             get {
@@ -511,7 +511,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Image URL is not valid..
+        ///   Busca una cadena traducida similar a La URL de la imagen no es válida..
         /// </summary>
         public static string InvalidImageUrlErrorText {
             get {
@@ -601,7 +601,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Open article.
+        ///   Busca una cadena traducida similar a Abrir artículo.
         /// </summary>
         public static string OpenArticle {
             get {
@@ -628,7 +628,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Question already exist. please add different question..
+        ///   Busca una cadena traducida similar a La pregunta ya existe. Por favor agrega una pregunta diferente..
         /// </summary>
         public static string QuestionAlreadyExistsErrorText {
             get {
@@ -664,7 +664,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter information (100 characters max).
+        ///   Busca una cadena traducida similar a Ingresa la información (Máximo 100 caracteres).
         /// </summary>
         public static string QuestionPlaceholderText {
             get {
@@ -1114,7 +1114,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please wait for some time, updates to this question: &quot;{0}&quot; will be available in short time..
+        ///   Busca una cadena traducida similar a Por favor espera un poco, las actualizaciones de esta pregunta: &quot;{o}&quot; estarán disponibles en poco tiempo..
         /// </summary>
         public static string WaitMessage {
             get {

@@ -448,56 +448,56 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Botón de texto Actualizar historia.</comment>
   </data>
   <data name="WaitMessage" xml:space="preserve">
-    <value>Please wait for some time, updates to this question: "{0}" will be available in short time.</value>
-    <comment>Wait message to show below the adaptive card while trying to delete the question and is not available in production knowledgebase and waiting to be publish.</comment>
+    <value>Por favor espera un poco, las actualizaciones de esta pregunta: "{o}" estarán disponibles en poco tiempo.</value>
+    <comment>Mensaje de espera para mostrar debajo de la adaptive card mientras se intenta eliminar la pregunta y no está disponible en el productivo de la base de conocimiento y está esperando para ser publicado.</comment>
   </data>
   <data name="AddQuestionSubtitle" xml:space="preserve">
-    <value>Add new question details</value>
-    <comment>The subtitle at the top of task module while adding the new QnA pair.</comment>
+    <value>Agregar nuevos detalles de la pregunta</value>
+    <comment>El subtítulo en la parte superior del módulo de tareas al agregar un nuevo QnA pair.</comment>
   </data>
   <data name="EditQuestionSubtitle" xml:space="preserve">
-    <value>Edit question details</value>
-    <comment>The subtitle at the top of task module while editing the QnA pair.</comment>
+    <value>Editar detalles de la pregunta</value>
+    <comment>El subtítulo en la parte superior del módulo cuando se edita el QnA pair.</comment>
   </data>
   <data name="HTMLErrorText" xml:space="preserve">
-    <value>HTML tags are not supported.</value>
-    <comment>Error message to show if HTML tags are entered on any field while adding or editing the QnA pair.</comment>
+    <value>No soporta los tags de HTML.</value>
+    <comment>Mensaje de error para mostrar si los tags HTML son ingresados en cualquier campo cuando se agrega o edita una QnA pair.</comment>
   </data>
   <data name="QuestionAlreadyExistsErrorText" xml:space="preserve">
-    <value>Question already exist. please add different question.</value>
-    <comment>Error message to show if question is already existing in the knowledgebase while adding or editing the QnA pair.</comment>
+    <value>La pregunta ya existe. Por favor agrega una pregunta diferente.</value>
+    <comment>Mensaje de error para mostrar si la pregunta ya existe en la base de conocimiento al agregar o editar un QnA pair.</comment>
   </data>
   <data name="OpenArticle" xml:space="preserve">
-    <value>Open article</value>
-    <comment>Open article button text, which will show on adaptiver rich card if redirection url field is filled while adding/editing the QnA pair.</comment>
+    <value>Abrir artículo</value>
+    <comment>Botón de texto Abrir artículo, el cual se mostrará en la adaptiver rich card si el campo de URL de redireccionamiento es llenado al agregar / editar un QnA pair.</comment>
   </data>
   <data name="BackButtonCommandText" xml:space="preserve">
-    <value>BackButton</value>
-    <comment>Back button command text to identify the performed action.</comment>
+    <value>Botón de regreso</value>
+    <comment>Comando de texto del botón de regreso para identificar la acción realizada.</comment>
   </data>
   <data name="InvalidImageUrlErrorText" xml:space="preserve">
-    <value>Image URL is not valid.</value>
-    <comment>Error message to show if image url is not valid while adding or editing the QnA pair.</comment>
+    <value>La URL de la imagen no es válida.</value>
+    <comment>Mensaje de error para mostrar si la URL de la imagen no es válida al agregar o editar un QnA pair.</comment>
   </data>
   <data name="EmptyImageUrlErrorText" xml:space="preserve">
-    <value>Image url can not be empty.</value>
-    <comment>Error message to show if image url text box is empty while adding or editing the QnA pair.</comment>
+    <value>La URL de la imagen no puede estar vacia.</value>
+    <comment>Mensaje de error para mostrar si el cuadro de texto de la URL de la imagen está vacío al agregar o editar un QnA pair.</comment>
   </data>
   <data name="EntryCreatedByText" xml:space="preserve">
-    <value>Created by</value>
-    <comment>Show message on adaptive card, after adding the QnA pair.</comment>
+    <value>Creado por</value>
+    <comment>Muestra el mensaje en la adaptive card, después de agregar un QnA pair.</comment>
   </data>
   <data name="DescriptionPlaceholderText" xml:space="preserve">
-    <value>Enter information (500 characters max)</value>
-    <comment>Placeholder text for description text box.</comment>
+    <value>Ingresa la información (Máximo 500 caracteres)</value>
+    <comment>Marcador de posicion de texto para el cuadro de texto descripción.</comment>
   </data>
   <data name="ImageUrlPlaceholderText" xml:space="preserve">
-    <value>Enter image URL (200 characters max)</value>
-    <comment>Placeholder text for image url text box.</comment>
+    <value>Ingresa la URL de imagen (Máximo 200 caracteres)</value>
+    <comment>Marcador de posición de texto para el cuadro de texto url.</comment>
   </data>
   <data name="QuestionPlaceholderText" xml:space="preserve">
-    <value>Enter information (100 characters max)</value>
-    <comment>Placeholder text for question text box.</comment>
+    <value>Ingresa la información (Máximo 100 caracteres)</value>
+    <comment>Marcador de posición de texto para el cuadro de texto de pregunta.</comment>
   </data>
   <data name="RedirectionUrlPlaceholderText" xml:space="preserve">
     <value>Enter information (200 characters max)</value>
