@@ -1132,9 +1132,9 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hello team,   
+        ///   Busca una cadena traducida similar a Hola Equipo
         ///
-        ///I am your friendly Q&amp;A bot that helps you provide support to people who interact with me and need more assistance..
+        ///Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a personas que interactúan conmigo y que necesiten mas asistencia..
         /// </summary>
         public static string WelcomeTeamCardContent {
             get {
