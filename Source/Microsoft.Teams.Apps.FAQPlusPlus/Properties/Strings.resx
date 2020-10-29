@@ -202,9 +202,9 @@
     <comment>Botón de acción que da un recorrido al equipo acerca de las funcionalidades del bot.</comment>
   </data>
   <data name="WelcomeTeamCardContent" xml:space="preserve">
-    <value>Hola Equipo
+    <value>Hello team,   
 
-Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a personas que interactúan conmigo y que necesiten mas asistencia.</value>
+I am your friendly Q&amp;A bot that helps you provide support to people who interact with me and need more assistance.</value>
     <comment>Mensaje de bienvenida cuando el bot es agregado a un nuevo equipo.</comment>
   </data>
   <data name="CustomMessage" xml:space="preserve">
