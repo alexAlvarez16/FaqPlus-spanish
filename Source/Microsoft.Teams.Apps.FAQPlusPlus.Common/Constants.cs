@@ -17,7 +17,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common
         /// <summary>
         /// Delete command.
         /// </summary>
-        public const string DeleteCommand = "delete";
+        public const string DeleteCommand = "eliminar";
 
         /// <summary>
         /// No command.
@@ -63,22 +63,22 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common
         /// <summary>
         /// TeamTour - text that triggers team tour action.
         /// </summary>
-        public const string TeamTour = "team tour";
+        public const string TeamTour = "tour del equipo";
 
         /// <summary>
         /// TakeAtour - text that triggers take a tour action for the user.
         /// </summary>
-        public const string TakeATour = "take a tour";
+        public const string TakeATour = "toma un tour";
 
         /// <summary>
         /// AskAnExpert - text that renders the ask an expert card.
         /// </summary>
-        public const string AskAnExpert = "ask an expert";
+        public const string AskAnExpert = "pregunta a experto";
 
         /// <summary>
         /// Feedback - text that renders share feedback card.
         /// </summary>
-        public const string ShareFeedback = "share feedback";
+        public const string ShareFeedback = "comparte retroalimentacion";
 
         /// <summary>
         /// Table name where SME activity details from bot will be saved.
