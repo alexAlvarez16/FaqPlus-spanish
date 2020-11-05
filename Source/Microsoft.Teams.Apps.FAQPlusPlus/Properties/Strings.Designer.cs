@@ -322,7 +322,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Descripción..
+        ///   Busca una cadena traducida similar a Descripción.
         /// </summary>
         public static string DescriptionText {
             get {
@@ -412,7 +412,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Escribe tu experiencia con todo el detalle aquí (500 caracteres como maximo).
+        ///   Busca una cadena traducida similar a Escribe tu retroalimenación con todo el detalle aquí (500 caracteres como maximo).
         /// </summary>
         public static string FeedbackDescriptionPlaceholderText {
             get {
@@ -430,7 +430,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Compartenos tu experiencia de como lo estoy haciendo para que me ayudes a mejorar..
+        ///   Busca una cadena traducida similar a Compartenos tu retroalimentación de como lo estoy haciendo para que me ayudes a mejorar..
         /// </summary>
         public static string FeedbackText1 {
             get {
@@ -745,7 +745,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Aquí está lo que encontré:.
+        ///   Busca una cadena traducida similar a .
         /// </summary>
         public static string ResponseHeaderText {
             get {
@@ -790,7 +790,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Compartenos tu experiencia..
+        ///   Busca una cadena traducida similar a Compartir retroalimentación.
         /// </summary>
         public static string ShareFeedbackButtonText {
             get {
@@ -1015,7 +1015,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¡Gracias por tus comentarios! Los compartire con los Asesores RH. Esto me ayuda a aprender y mejorar..
+        ///   Busca una cadena traducida similar a ¡Gracias por tus comentarios! Los compartiré con los Asesores RH. Esto me ayuda a aprender y mejorar..
         /// </summary>
         public static string ThankYouTextContent {
             get {
@@ -1139,6 +1139,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         public static string WelcomeTeamCardContent {
             get {
                 return ResourceManager.GetString("WelcomeTeamCardContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.\r\n\r\nPuedes preguntarme cosas como:\r\n* ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n* ¿Cuál es el teléfono de Línea RH?\r\n* ¿Qué es Job Posting?\r\n* Etc..
+        /// </summary>
+        public static string WelcomeTextContent {
+            get {
+                return ResourceManager.GetString("WelcomeTextContent", resourceCulture);
             }
         }
         

@@ -130,8 +130,8 @@
     <comment>Explica al colaborador que existe un equipo de asesores RH dispuestos a ayudarle.</comment>
   </data>
   <data name="FeedbackText1" xml:space="preserve">
-    <value>Compartenos tu experiencia de como lo estoy haciendo para que me ayudes a mejorar.</value>
-    <comment>El texto aconseja al colaborador para compartir su experiencia usando el bot.</comment>
+    <value>Compartenos tu retroalimentación de como lo estoy haciendo para que me ayudes a mejorar.</value>
+    <comment>El texto aconseja al colaborador para compartir su retroalimentación usando el bot.</comment>
   </data>
   <data name="FunctionCardText1" xml:space="preserve">
     <value>Realiza una pregunta</value>
@@ -142,15 +142,15 @@
     <comment>Se sugiere al colaborador realizar una pregunta.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
-    <value>Compartenos tu experiencia.</value>
+    <value>Compartir retroalimentación</value>
     <comment>Botón de texto para la tarjeta de compartir retroalimentación de las respuestas de QnA.</comment>
   </data>
   <data name="DescriptionText" xml:space="preserve">
-    <value>Descripción.</value>
+    <value>Descripción</value>
     <comment>Etiqueta de texto para descripción.</comment>
   </data>
   <data name="FeedbackDescriptionPlaceholderText" xml:space="preserve">
-    <value>Escribe tu experiencia con todo el detalle aquí (500 caracteres como maximo)</value>
+    <value>Escribe tu retroalimenación con todo el detalle aquí (500 caracteres como maximo)</value>
     <comment>Marcador de la etiqueta cuando el usuario comparte retroalimentacion en el cuadro de texto.</comment>
   </data>
   <data name="StatusFactTitle" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>Botón de acción que llama la tarjeta de pregunta a un Asesor RH.</comment>
   </data>
   <data name="ThankYouTextContent" xml:space="preserve">
-    <value>¡Gracias por tus comentarios! Los compartire con los Asesores RH. Esto me ayuda a aprender y mejorar.</value>
+    <value>¡Gracias por tus comentarios! Los compartiré con los Asesores RH. Esto me ayuda a aprender y mejorar.</value>
     <comment>l contenido de agradecimiento de la tarjeta adaptable que se muestra al usuario cuando envía alguna retroalimentación sobre la aplicación o sobre una respuesta generada por el servicio de QnA.</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
@@ -228,7 +228,7 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Texto en el boton de cambiar estatus.</comment>
   </data>
   <data name="ResponseHeaderText" xml:space="preserve">
-    <value>Aquí está lo que encontré:</value>
+    <value />
     <comment>Encabezado de respuesta- permite al usuario conocer que se ha generado una respuesta desde el QnA Maker.</comment>
   </data>
   <data name="ClosedFactTitle" xml:space="preserve">
@@ -600,5 +600,9 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
   <data name="ShareAppFeedbackRating" xml:space="preserve">
     <value>¿Qué tan útil te fue esta aplicación? (Necesario)</value>
     <comment>Retroalimentación para la App</comment>
+  </data>
+  <data name="WelcomeTextContent" xml:space="preserve">
+    <value>Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.\r\n\r\nPuedes preguntarme cosas como:\r\n* ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n* ¿Cuál es el teléfono de Línea RH?\r\n* ¿Qué es Job Posting?\r\n* Etc.</value>
+    <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
 </root>
