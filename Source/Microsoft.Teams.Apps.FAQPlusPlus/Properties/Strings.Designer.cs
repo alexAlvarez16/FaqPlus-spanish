@@ -151,7 +151,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tu solicitud ha sido asignada a {0}. Pronto te buscará en otro chat..
+        ///   Busca una cadena traducida similar a Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat..
         /// </summary>
         public static string AssignedTicketUserNotificationCustom {
             get {
