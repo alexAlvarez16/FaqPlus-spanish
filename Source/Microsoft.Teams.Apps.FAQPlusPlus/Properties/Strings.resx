@@ -610,7 +610,7 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickets es asignado a un Asesor RH.</comment>
   </data>
   <data name="NotificationCardContentCustom" xml:space="preserve">
-    <value>Hola {0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat.</value>
+    <value>{0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat.</value>
     <comment>Mensaje de confirmación al usuario que realiza una pregunta al Asesor RH.</comment>
   </data>
 </root>

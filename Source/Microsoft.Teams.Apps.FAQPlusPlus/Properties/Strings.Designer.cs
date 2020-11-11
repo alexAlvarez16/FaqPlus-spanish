@@ -610,7 +610,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hola {0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat..
+        ///   Busca una cadena traducida similar a {0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat..
         /// </summary>
         public static string NotificationCardContentCustom {
             get {
