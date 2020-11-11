@@ -12,7 +12,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common.Models
         /// <summary>
         /// Gets or sets the user title text for ask an expert button.
         /// </summary>
-        public string Title { get; set; }
+        //public string Title { get; set; }
+        public string Title = Constants.AskAnExpertDefaultTitle;
 
         /// <summary>
         /// Gets or sets the question for the expert being asked by the user through bot command.

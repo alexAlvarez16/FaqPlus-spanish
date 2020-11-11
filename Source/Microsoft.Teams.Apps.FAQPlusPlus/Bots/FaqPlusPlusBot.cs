@@ -907,8 +907,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     newTicket = await AdaptiveCardHelper.AskAnExpertSubmitText(message, turnContext, cancellationToken, this.ticketsProvider).ConfigureAwait(false);
                     if (newTicket != null)
                     {
+                        // RAAG - 10/11/2020  - Se agrega nombre de usuario asignado a la cadena, ademas de dos constantes en el repositorio NotificationCardContentUser y AssignedTicketUserNotificationUser
+                        string notificationContentUser = string.Empty;
+                        if (newTicket.RequesterGivenName != null)
+                        {
+                            notificationContentUser = string.Format(Strings.NotificationCardContentCustom, newTicket?.RequesterGivenName);
+                        }
+                        else
+                        {
+                            notificationContentUser = Strings.NotificationCardContent;
+                        }
                         smeTeamCard = new SmeTicketCard(newTicket).ToAttachment(message?.LocalTimestamp);
-                        userCard = new UserNotificationCard(newTicket).ToAttachment(Strings.NotificationCardContent, message?.LocalTimestamp);
+                        userCard = new UserNotificationCard(newTicket).ToAttachment(notificationContentUser, message?.LocalTimestamp);
                     }
 
                     break;
@@ -1053,7 +1063,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 case ChangeTicketStatusPayload.AssignToSelfAction:
                     smeNotification = string.Format(CultureInfo.InvariantCulture, Strings.SMEAssignedStatus, ticket.AssignedToName);
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(Strings.AssignedTicketUserNotification, message.LocalTimestamp));
+                    // RAAG - 10/11/2020  - Se agrega nombre de experto asignado a la cadena
+                    string assignedTicketNotificationUser = string.Empty;
+                    if (ticket.AssignedToName != null)
+                    {
+                        assignedTicketNotificationUser = string.Format(Strings.NotificationCardContentCustom, ticket?.AssignedToName);
+                    }
+                    else
+                    {
+                        assignedTicketNotificationUser = Strings.NotificationCardContent;
+                    }
+
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUser, message.LocalTimestamp));
                     userNotification.Summary = Strings.AssignedTicketUserNotification;
                     break;
             }

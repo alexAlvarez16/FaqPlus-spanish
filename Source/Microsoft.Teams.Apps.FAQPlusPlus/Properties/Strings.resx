@@ -605,4 +605,12 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <value>Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.\r\n\r\nPuedes preguntarme cosas como:\r\n* ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n* ¿Cuál es el teléfono de Línea RH?\r\n* ¿Qué es Job Posting?\r\n* Etc.</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
+  <data name="AssignedTicketUserNotificationCustom" xml:space="preserve">
+    <value>Tu solicitud ha sido asignada a {0}. Pronto te buscará en otro chat.</value>
+    <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickets es asignado a un Asesor RH.</comment>
+  </data>
+  <data name="NotificationCardContentCustom" xml:space="preserve">
+    <value>Hola {0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat.</value>
+    <comment>Mensaje de confirmación al usuario que realiza una pregunta al Asesor RH.</comment>
+  </data>
 </root>

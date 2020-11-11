@@ -104,5 +104,11 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common
         /// Represents the command text to identify the action.
         /// </summary>
         public const string PreviewCardCommandText = "previewcard";
+
+        /// <summary>
+        /// Represents the default title for askanexpert card
+        /// </summary>
+        public const string AskAnExpertDefaultTitle = "Pregunta a un Asesor RH";
+
     }
 }

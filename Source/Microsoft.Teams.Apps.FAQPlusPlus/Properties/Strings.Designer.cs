@@ -151,6 +151,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Tu solicitud ha sido asignada a {0}. Pronto te buscará en otro chat..
+        /// </summary>
+        public static string AssignedTicketUserNotificationCustom {
+            get {
+                return ResourceManager.GetString("AssignedTicketUserNotificationCustom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Asignado.
         /// </summary>
         public static string AssignedUserNotificationStatus {
@@ -597,6 +606,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         public static string NotificationCardContent {
             get {
                 return ResourceManager.GetString("NotificationCardContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Hola {0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat..
+        /// </summary>
+        public static string NotificationCardContentCustom {
+            get {
+                return ResourceManager.GetString("NotificationCardContentCustom", resourceCulture);
             }
         }
         
