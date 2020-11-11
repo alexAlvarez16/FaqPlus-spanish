@@ -1067,11 +1067,11 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string assignedTicketNotificationUser = string.Empty;
                     if (ticket.AssignedToName != null)
                     {
-                        assignedTicketNotificationUser = string.Format(Strings.NotificationCardContentCustom, ticket?.AssignedToName);
+                        assignedTicketNotificationUser = string.Format(Strings.AssignedTicketUserNotificationCustom, ticket?.AssignedToName);
                     }
                     else
                     {
-                        assignedTicketNotificationUser = Strings.NotificationCardContent;
+                        assignedTicketNotificationUser = Strings.AssignedTicketUserNotificationCustom;
                     }
 
                     userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUser, message.LocalTimestamp));

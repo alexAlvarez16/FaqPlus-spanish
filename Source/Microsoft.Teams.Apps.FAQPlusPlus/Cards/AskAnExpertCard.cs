@@ -84,18 +84,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                     {
                         Columns = new List<AdaptiveColumn>
                         {
-                            new AdaptiveColumn
-                            {
-                                Width = AdaptiveColumnWidth.Auto,
-                                Items = new List<AdaptiveElement>
-                                {
-                                    new AdaptiveTextBlock
-                                    {
-                                        Text = Strings.TitleRequiredText,
-                                        Wrap = true,
-                                    },
-                                },
-                            },
+                            //new AdaptiveColumn
+                            //{
+                            //    Width = AdaptiveColumnWidth.Auto,
+                            //    Items = new List<AdaptiveElement>
+                            //    {
+                            //        new AdaptiveTextBlock
+                            //        {
+                            //            Text = Strings.TitleRequiredText,
+                            //            Wrap = true,
+                            //        },
+                            //    },
+                            //},
                             new AdaptiveColumn
                             {
                                 Items = new List<AdaptiveElement>
@@ -111,14 +111,14 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                             },
                         },
                     },
-                    new AdaptiveTextInput
-                    {
-                        Id = nameof(AskAnExpertCardPayload.Title),
-                        Placeholder = Strings.ShowCardTitleText,
-                        IsMultiline = false,
-                        Spacing = AdaptiveSpacing.Small,
-                        Value = cardPayload?.Title,
-                    },
+                    //new AdaptiveTextInput
+                    //{
+                    //    Id = nameof(AskAnExpertCardPayload.Title),
+                    //    Placeholder = Strings.ShowCardTitleText,
+                    //    IsMultiline = false,
+                    //    Spacing = AdaptiveSpacing.Small,
+                    //    Value = cardPayload?.Title,
+                    //},
                     new AdaptiveTextBlock
                     {
                         Text = Strings.DescriptionText,
