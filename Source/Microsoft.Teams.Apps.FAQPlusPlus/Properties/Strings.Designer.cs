@@ -1230,11 +1230,20 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.\r\n\r\nPuedes preguntarme cosas como:\r\n* ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n* ¿Cuál es el teléfono de Línea RH?\r\n* ¿Qué es Job Posting?\r\n* Etc..
+        ///   Busca una cadena traducida similar a Hola, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n&quot;Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.&quot;\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el [resto de la cadena truncado]&quot;;.
         /// </summary>
         public static string WelcomeTextContent {
             get {
                 return ResourceManager.GetString("WelcomeTextContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Hola {0}, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n&quot;Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.&quot;\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué e [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        public static string WelcomeTextContentUser {
+            get {
+                return ResourceManager.GetString("WelcomeTextContentUser", resourceCulture);
             }
         }
         

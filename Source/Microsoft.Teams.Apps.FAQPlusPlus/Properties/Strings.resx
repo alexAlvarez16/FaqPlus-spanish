@@ -218,7 +218,7 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
   <data name="CustomMessageUser" xml:space="preserve">
     <value>Que pena {0}, pero sigo aprendiendo de este tema y todo el equipo esta trabajando para subir esta información lo más pronto posible. Puedes intentar con otra pregunta o da clic en el botón -Pregunta a un asesor- para que generemos una solicitud de ayuda. Gracias por la comprensión y paciencia que me tienes.</value>
     <comment>Mensaje cuando un usuario pregunta una pregunta aleatoria al bot.</comment>
-  </data>  
+  </data>
   <data name="QuestionAskedFactTitle" xml:space="preserve">
     <value>Consulta realizada:</value>
     <comment>El hecho establece el título para pregunta formulada en la tarjeta SME ticket.</comment>
@@ -629,7 +629,7 @@ Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Retroalimentación para la App</comment>
   </data>
   <data name="WelcomeTextContent" xml:space="preserve">
-    <value>Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.\r\n\r\nPuedes preguntarme cosas como:\r\n* ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n* ¿Cuál es el teléfono de Línea RH?\r\n* ¿Qué es Job Posting?\r\n* Etc.</value>
+    <value>Hola, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n- ¿Cuál es el teléfono de Línea RH?r\n- ¿Qué es Job Posting?\r\n- ¿Cuáles son los servicios RH disponibles?\r\n-  Entre otros servicios más....</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
   <data name="AssignedTicketUserNotificationCustom" xml:space="preserve">
@@ -646,5 +646,9 @@ Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <value>{0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.
 Dentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente.</value>
     <comment>Texto de subtítulo de la tarjeta pregunta a un Asesor RH: permite al usuario saber que un miembro del equipo SME puede comunicarse directamente.</comment>
+  </data>
+  <data name="WelcomeTextContentUser" xml:space="preserve">
+    <value>Hola {0}, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n- ¿Cuál es el teléfono de Línea RH?r\n- ¿Qué es Job Posting?\r\n- ¿Cuáles son los servicios RH disponibles?\r\n-  Entre otros servicios más....</value>
+    <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
 </root>

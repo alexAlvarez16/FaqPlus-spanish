@@ -720,8 +720,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             {
                 // User started chat with the bot in personal scope, for the first time.
                 this.logger.LogInformation($"Bot added to 1:1 chat {activity.Conversation.Id}");
-                var userWelcomeCardAttachment = WelcomeCard.GetCard(Strings.WelcomeTextContent.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"));
-                await turnContext.SendActivityAsync(MessageFactory.Attachment(userWelcomeCardAttachment)).ConfigureAwait(false);
+                if(membersAdded[0].Name != null)
+                {
+                    var userWelcomeCardAttachment = WelcomeCard.GetCard(string.Format(Strings.WelcomeTextContentUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), membersAdded[0].Name));
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(userWelcomeCardAttachment)).ConfigureAwait(false);
+                }
+                else
+                {
+                    var userWelcomeCardAttachment = WelcomeCard.GetCard(Strings.WelcomeTextContent.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"));
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(userWelcomeCardAttachment)).ConfigureAwait(false);
+                }
+
+
             }
         }
 
