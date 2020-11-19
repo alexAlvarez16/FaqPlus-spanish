@@ -126,23 +126,23 @@
     <comment>Título de la tarjeta pregunta a un Asesor RH</comment>
   </data>
   <data name="AskAnExpertText2" xml:space="preserve">
-    <value>… Si mi respuesta no te ayuda … Te puedo contactar con un Asesor RH.</value>
+    <value>... como lo dije con anterioridad... si mis respuestas a tus preguntas no te ayudan. Puedo contactarte con un Asesor RH levantando una solicitud de ayuda. Esto es muy sencillo solo escribe en el cuadro de texto - Pregunta a un Asesor RH -</value>
     <comment>Explica al colaborador que existe un equipo de asesores RH dispuestos a ayudarle.</comment>
   </data>
   <data name="FeedbackText1" xml:space="preserve">
-    <value>Compartenos tu retroalimentación de como lo estoy haciendo para que me ayudes a mejorar.</value>
+    <value>También puedes compartirme tus comentarios, es decir, como lo estoy haciendo. Estos me ayudan a mejorar. Para dar tu retroalimentación solo tienes que escribir - Comparte retroalimentación - o dar clic en el botón con el mismo nombre cuando aparezca.</value>
     <comment>El texto aconseja al colaborador para compartir su retroalimentación usando el bot.</comment>
   </data>
   <data name="FunctionCardText1" xml:space="preserve">
-    <value>Realiza una pregunta</value>
+    <value>Puedes hacerme preguntas</value>
     <comment>Explica lo que hace el bot y algunas sugerencias para hacerle preguntas.</comment>
   </data>
   <data name="FunctionCardText2" xml:space="preserve">
-    <value>Solo tienes que hacerme una pregunta y yo buscaré la mejor respuesta para ti. Si fuera necesario un seguimiento adicional, te aseguro que lo haré.</value>
+    <value>Solo tienes que hacerme una pregunta o escribir palabras claves relacionada con los servicios RH y yo buscaré la mejor respuesta para ti. Si no tuviera éxito en mi búsqueda, puedo ayudarte a levantar una solicitud de ayuda con un Asesor RH y dar un seguimiento a esta solicitud...</value>
     <comment>Se sugiere al colaborador realizar una pregunta.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
-    <value>Compartir retroalimentación</value>
+    <value>Comparte retroalimentación</value>
     <comment>Botón de texto para la tarjeta de compartir retroalimentación de las respuestas de QnA.</comment>
   </data>
   <data name="DescriptionText" xml:space="preserve">
@@ -256,7 +256,7 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Texto en la tarjeta SME de retroalimentación, el marcador de posición {0} representa el nombre de la persona que está compartiendo su retroalimentación. El marcador de posición {1} representa el tipo de retroalimentación.</comment>
   </data>
   <data name="ShareFeedbackTitleText" xml:space="preserve">
-    <value>Compartir retroalimentación sobre el chatbot.</value>
+    <value>Comparte retroalimentación</value>
     <comment>Título de texto de la tarjeta carrusel del usuario para compartir retroalimentación.</comment>
   </data>
   <data name="AskAnExpertDisplayText" xml:space="preserve">
@@ -376,7 +376,7 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Rating is mandatory , a warning message to the user when rating is not submitted in share feedback activity.</comment>
   </data>
   <data name="TakeATourButtonText" xml:space="preserve">
-    <value>Tomar el tour</value>
+    <value>Toma un tour</value>
     <comment>Botón disponible Tomar el tour para los usuarios en la tarjeta de bienvenida, a través del cual el usuario puede tomar el tour por las funcionalidades del bot. </comment>
   </data>
   <data name="TitleFact" xml:space="preserve">
