@@ -124,7 +124,17 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a … Si mi respuesta no te ayuda … Te puedo contactar con un Asesor RH..
+        ///   Busca una cadena traducida similar a {0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.
+        ///Dentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente..
+        /// </summary>
+        public static string AskAnExpertSubheaderTextUser {
+            get {
+                return ResourceManager.GetString("AskAnExpertSubheaderTextUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ... como lo dije con anterioridad... si mis respuestas a tus preguntas no te ayudan. Puedo contactarte con un Asesor RH levantando una solicitud de ayuda. Esto es muy sencillo solo escribe en el cuadro de texto - Pregunta a un Asesor RH -.
         /// </summary>
         public static string AskAnExpertText2 {
             get {
@@ -151,7 +161,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tu solicitud ha sido asignada a un Asesor RH. Pronto te buscará en otro chat..
+        ///   Busca una cadena traducida similar a Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.
+        ///Te estaré mandando notificaciones, aquí sigo por si me necesitas..
         /// </summary>
         public static string AssignedTicketUserNotificationCustom {
             get {
@@ -241,6 +252,17 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes dudas sobre servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.
+        ///Si tus dudas no fueron aclaradas por el Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH- nuevamente.
+        ///Recuerda, aquí sigo por si me necesitas..
+        /// </summary>
+        public static string ClosedTicketUserNotificationUser {
+            get {
+                return ResourceManager.GetString("ClosedTicketUserNotificationUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Cerrado.
         /// </summary>
         public static string ClosedUserNotificationStatus {
@@ -255,6 +277,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         public static string CustomMessage {
             get {
                 return ResourceManager.GetString("CustomMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Que pena {0}, pero sigo aprendiendo de este tema y todo el equipo esta trabajando para subir esta información lo más pronto posible. Puedes intentar con otra pregunta o da clic en el botón -Pregunta a un asesor- para que generemos una solicitud de ayuda. Gracias por la comprensión y paciencia que me tienes..
+        /// </summary>
+        public static string CustomMessageUser {
+            get {
+                return ResourceManager.GetString("CustomMessageUser", resourceCulture);
             }
         }
         
@@ -430,6 +461,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a ¿Cómo podríamos mejorar tu experiencia? Escribe tus comentarios con el mayor detalle en el siguiente recuadro y al finalizar da clic en el botón -Comparte retroalimentación -.
+        /// </summary>
+        public static string FeedbackRatingDescription {
+            get {
+                return ResourceManager.GetString("FeedbackRatingDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Te ha sido de utilidad esta respuesta? (Requerido).
         /// </summary>
         public static string FeedbackRatingRequired {
@@ -439,7 +479,16 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Compartenos tu retroalimentación de como lo estoy haciendo para que me ayudes a mejorar..
+        ///   Busca una cadena traducida similar a {0} tus comentarios me ayudan a mejorar. Hasta el momento ¿Qué tan util han sido para ti mis servicios?.
+        /// </summary>
+        public static string FeedbackRatingRequiredUser {
+            get {
+                return ResourceManager.GetString("FeedbackRatingRequiredUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a También puedes compartirme tus comentarios, es decir, como lo estoy haciendo. Estos me ayudan a mejorar. Para dar tu retroalimentación solo tienes que escribir - Comparte retroalimentación - o dar clic en el botón con el mismo nombre cuando aparezca..
         /// </summary>
         public static string FeedbackText1 {
             get {
@@ -448,7 +497,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Realiza una pregunta.
+        ///   Busca una cadena traducida similar a Puedes hacerme preguntas.
         /// </summary>
         public static string FunctionCardText1 {
             get {
@@ -457,7 +506,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Solo tienes que hacerme una pregunta y yo buscaré la mejor respuesta para ti. Si fuera necesario un seguimiento adicional, te aseguro que lo haré..
+        ///   Busca una cadena traducida similar a Solo tienes que hacerme una pregunta o escribir palabras claves relacionada con los servicios RH y yo buscaré la mejor respuesta para ti. Si no tuviera éxito en mi búsqueda, puedo ayudarte a levantar una solicitud de ayuda con un Asesor RH y dar un seguimiento a esta solicitud....
         /// </summary>
         public static string FunctionCardText2 {
             get {
@@ -610,7 +659,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a {0}, acabo de compartir tu pregunta con el equipo. Pronto te buscará un Asesor RH en otro chat..
+        ///   Busca una cadena traducida similar a {0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.
+        ///Te estaré mandando notificaciones, aquí sigo por si me necesitas..
         /// </summary>
         public static string NotificationCardContentCustom {
             get {
@@ -763,6 +813,16 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.
+        ///Te estaré mandando notificaciones, aquí sigo por si me necesitas..
+        /// </summary>
+        public static string ReopenedTicketUserNotificationUser {
+            get {
+                return ResourceManager.GetString("ReopenedTicketUserNotificationUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a .
         /// </summary>
         public static string ResponseHeaderText {
@@ -808,7 +868,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Compartir retroalimentación.
+        ///   Busca una cadena traducida similar a Comparte retroalimentación.
         /// </summary>
         public static string ShareFeedbackButtonText {
             get {
@@ -826,7 +886,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Compartir retroalimentación sobre el chatbot..
+        ///   Busca una cadena traducida similar a Comparte retroalimentación.
         /// </summary>
         public static string ShareFeedbackTitleText {
             get {
@@ -961,7 +1021,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tomar el tour.
+        ///   Busca una cadena traducida similar a Toma un tour.
         /// </summary>
         public static string TakeATourButtonText {
             get {
@@ -1038,6 +1098,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         public static string ThankYouTextContent {
             get {
                 return ResourceManager.GetString("ThankYouTextContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ¡Gracias {0} por tus comentarios! Los compartiré con el equipo. Esto me ayuda a aprender y mejorar..
+        /// </summary>
+        public static string ThankYouTextContentUser {
+            get {
+                return ResourceManager.GetString("ThankYouTextContentUser", resourceCulture);
             }
         }
         

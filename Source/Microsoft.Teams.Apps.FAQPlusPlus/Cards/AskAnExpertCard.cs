@@ -29,6 +29,11 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
             return GetCard(new AskAnExpertCardPayload(), showValidationErrors: false);
         }
 
+        public static Attachment GetCard(Microsoft.Bot.Schema.Teams.TeamsChannelAccount member)
+        {
+            return GetCard(new AskAnExpertCardPayload(), showValidationErrors: false, member);
+        }
+
         /// <summary>
         /// This method will construct the card for ask an expert, when invoked from the response card.
         /// </summary>
@@ -119,6 +124,95 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                     //    Spacing = AdaptiveSpacing.Small,
                     //    Value = cardPayload?.Title,
                     //},
+                    new AdaptiveTextBlock
+                    {
+                        Text = Strings.DescriptionText,
+                        Wrap = true,
+                    },
+                    new AdaptiveTextInput
+                    {
+                        Id = nameof(AskAnExpertCardPayload.Description),
+                        Placeholder = Strings.AskAnExpertPlaceholderText,
+                        IsMultiline = true,
+                        Spacing = AdaptiveSpacing.Small,
+                        Value = cardPayload?.Description,
+                    },
+                },
+                Actions = new List<AdaptiveAction>
+                {
+                    new AdaptiveSubmitAction
+                    {
+                        Title = Strings.AskAnExpertButtonText,
+                        Data = new AskAnExpertCardPayload
+                        {
+                            MsTeams = new CardAction
+                            {
+                                Type = ActionTypes.MessageBack,
+                                DisplayText = Strings.AskAnExpertDisplayText,
+                                Text = AskAnExpertSubmitText,
+                            },
+                            UserQuestion = cardPayload?.UserQuestion,
+                            KnowledgeBaseAnswer = cardPayload?.KnowledgeBaseAnswer,
+                        },
+                    },
+                },
+            };
+
+            return new Attachment
+            {
+                ContentType = AdaptiveCard.ContentType,
+                Content = askAnExpertCard,
+            };
+        }
+
+
+        private static Attachment GetCard(AskAnExpertCardPayload cardPayload, bool showValidationErrors, Microsoft.Bot.Schema.Teams.TeamsChannelAccount member)
+        {
+            string txtAskAnExpertSubheaderText = string.Empty;
+            if (member.GivenName != null)
+            {
+                txtAskAnExpertSubheaderText = string.Format(Strings.AskAnExpertSubheaderTextUser, member.GivenName);
+            }
+            else
+            {
+                txtAskAnExpertSubheaderText = Strings.AskAnExpertSubheaderText;
+            }
+
+            AdaptiveCard askAnExpertCard = new AdaptiveCard(new AdaptiveSchemaVersion(1, 0))
+            {
+                Body = new List<AdaptiveElement>
+                {
+                    new AdaptiveTextBlock
+                    {
+                        Weight = AdaptiveTextWeight.Bolder,
+                        Text = Strings.AskAnExpertTitleText,
+                        Size = AdaptiveTextSize.Large,
+                        Wrap = true,
+                    },
+                    new AdaptiveTextBlock
+                    {
+                        Text =  txtAskAnExpertSubheaderText,
+                        Wrap = true,
+                    },
+                    new AdaptiveColumnSet
+                    {
+                        Columns = new List<AdaptiveColumn>
+                        {
+                            new AdaptiveColumn
+                            {
+                                Items = new List<AdaptiveElement>
+                                {
+                                    new AdaptiveTextBlock
+                                    {
+                                        Text = (showValidationErrors && string.IsNullOrWhiteSpace(cardPayload?.Title)) ? Strings.MandatoryTitleFieldText : string.Empty,
+                                        Color = AdaptiveTextColor.Attention,
+                                        HorizontalAlignment = AdaptiveHorizontalAlignment.Right,
+                                        Wrap = true,
+                                    },
+                                },
+                            },
+                        },
+                    },
                     new AdaptiveTextBlock
                     {
                         Text = Strings.DescriptionText,
