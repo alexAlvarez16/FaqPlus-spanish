@@ -647,6 +647,15 @@ Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
 Dentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente.</value>
     <comment>Texto de subtítulo de la tarjeta pregunta a un Asesor RH: permite al usuario saber que un miembro del equipo SME puede comunicarse directamente.</comment>
   </data>
+  <data name="HelpContent" xml:space="preserve">
+    <value>Hola, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n
+"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\n
+Mis principales funciones son:\r\n\r\n
+\r\n- Tu me preguntas algo de servicios RH, y yo te responderé lo mejor que pueda
+\r\n- Puedo conectarte con un Asesor RH para generar una solicitud de ayuda
+\r\n- Puedes compartirme retroalimentación, es decir, contarme como es tu experiencia conmigo. Esto me ayuda a aprender y mejorar.</value>
+    <comment>Contenido pagina de ayuda</comment>
+  </data>
   <data name="WelcomeTextContentUser" xml:space="preserve">
     <value>Hola {0}, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n- ¿Cuál es el teléfono de Línea RH?r\n- ¿Qué es Job Posting?\r\n- ¿Cuáles son los servicios RH disponibles?\r\n-  Entre otros servicios más....</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>

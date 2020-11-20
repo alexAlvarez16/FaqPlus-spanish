@@ -533,6 +533,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Hola, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n
+        ///&quot;Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles.&quot;\r\n\r\n
+        ///Mis principales funciones son:\r\n\r\n
+        ///\r\n- Tu me preguntas algo de servicios RH, y yo te responderé  [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        public static string HelpContent {
+            get {
+                return ResourceManager.GetString("HelpContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Útil.
         /// </summary>
         public static string HelpfulRatingText {
