@@ -779,8 +779,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 await this.OnAdaptiveCardSubmitInPersonalChatAsync(message, turnContext, member, cancellationToken).ConfigureAwait(false);
                 return;
             }
-
-            string text = message.Text?.ToLower()?.Trim() ?? string.Empty;
+            // Fix text trigger accents
+            string text = message.Text?.ToLower()?.Trim().Replace("á","a").Replace("é","e").Replace("í","i").Replace("ó","o").Replace("ú","u") ?? string.Empty;
 
             switch (text)
             {
