@@ -443,6 +443,15 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Enviar.
+        /// </summary>
+        public static string ExpertSubmitButonTitle {
+            get {
+                return ResourceManager.GetString("ExpertSubmitButonTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a **{0}** ha compartido su retroalimentación..
         /// </summary>
         public static string FeedbackAlertText {

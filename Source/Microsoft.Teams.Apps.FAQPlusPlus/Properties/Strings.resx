@@ -660,4 +660,8 @@ Mis principales funciones son:\r\n\r\n
     <value>Hola {0}, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n- ¿Cuál es el teléfono de Línea RH?r\n- ¿Qué es Job Posting?\r\n- ¿Cuáles son los servicios RH disponibles?\r\n-  Entre otros servicios más....</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
+  <data name="ExpertSubmitButonTitle" xml:space="preserve">
+    <value>Enviar</value>
+    <comment>Titulo(texto) para boton submit de la pantalla de expertos</comment>
+  </data>
 </root>
