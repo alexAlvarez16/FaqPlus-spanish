@@ -638,7 +638,7 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Mensaje de confirmación al usuario que realiza una pregunta al Asesor RH.</comment>
   </data>
   <data name="AskAnExpertSubheaderTextUser" xml:space="preserve">
-    <value>{0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.\r\nDentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente.</value>
+    <value>{0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.\r\n\r\nDentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente.</value>
     <comment>Texto de subtítulo de la tarjeta pregunta a un Asesor RH: permite al usuario saber que un miembro del equipo SME puede comunicarse directamente.</comment>
   </data>
   <data name="HelpContent" xml:space="preserve">

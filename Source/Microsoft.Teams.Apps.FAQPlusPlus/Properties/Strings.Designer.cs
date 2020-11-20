@@ -124,7 +124,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a {0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.\r\nDentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente..
+        ///   Busca una cadena traducida similar a {0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.\r\n\r\nDentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente..
         /// </summary>
         public static string AskAnExpertSubheaderTextUser {
             get {
