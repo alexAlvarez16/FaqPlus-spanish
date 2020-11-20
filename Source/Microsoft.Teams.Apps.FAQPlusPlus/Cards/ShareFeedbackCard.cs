@@ -195,8 +195,9 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
             }
             else
             {
-                txtFeedbackRatingRequiredUser = Strings.FeedbackRatingRequired;
+                txtFeedbackRatingRequiredUser = !string.IsNullOrWhiteSpace(data.UserQuestion) ? Strings.FeedbackRatingRequired : Strings.ShareAppFeedbackRating;
             }
+
             AdaptiveCard shareFeedbackCard = new AdaptiveCard(new AdaptiveSchemaVersion(1, 0))
             {
                 Body = new List<AdaptiveElement>
@@ -220,7 +221,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                                     new AdaptiveTextBlock
                                     {
                                         //Text = !string.IsNullOrWhiteSpace(data.UserQuestion) ? Strings.FeedbackRatingRequired : Strings.ShareAppFeedbackRating,
-                                         Text = !string.IsNullOrWhiteSpace(data.UserQuestion) ? txtFeedbackRatingRequiredUser : Strings.ShareAppFeedbackRating,
+                                         Text = txtFeedbackRatingRequiredUser,
                                          Wrap = true,
                                     },
                                 },
