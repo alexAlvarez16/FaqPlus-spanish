@@ -296,8 +296,8 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
   </data>
   <data name="ClosedTicketUserNotificationUser" xml:space="preserve">
-    <value>Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes dudas sobre servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.
-Si tus dudas no fueron aclaradas por el Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH- nuevamente.
+    <value>Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes otras dudas sobre los servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.
+Por otro lado, si nuevamente necesitas ayuda de un Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH-.\r\n
 Recuerda, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
   </data>
@@ -306,7 +306,7 @@ Recuerda, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
   </data>
   <data name="ReopenedTicketUserNotificationUser" xml:space="preserve">
-    <value>Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.
+    <value>Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.\r\n
 Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
   </data>
@@ -633,17 +633,17 @@ Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
   <data name="AssignedTicketUserNotificationCustom" xml:space="preserve">
-    <value>Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.
+    <value>Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.\r\n
 Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickets es asignado a un Asesor RH.</comment>
   </data>
   <data name="NotificationCardContentCustom" xml:space="preserve">
-    <value>{0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.
+    <value>{0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.\r\n
 Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Mensaje de confirmación al usuario que realiza una pregunta al Asesor RH.</comment>
   </data>
   <data name="AskAnExpertSubheaderTextUser" xml:space="preserve">
-    <value>{0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.
+    <value>{0} utilizaremos este formato para levantar una solicitud de ayuda relacionada a servicios RH (el tiempo máximo de respuesta es de 24 horas). Solo tienes que escribir tus dudas dentro del recuadro inferior y dar clic en el botón - Pregunta a un Asesor RH.\r\n
 Dentro de poco un Asesor RH se pondrá en contacto directo contigo en otra ventada de Chat, te recomiendo que estés atento y revises tus conversaciones frecuentemente.</value>
     <comment>Texto de subtítulo de la tarjeta pregunta a un Asesor RH: permite al usuario saber que un miembro del equipo SME puede comunicarse directamente.</comment>
   </data>
@@ -657,7 +657,7 @@ Mis principales funciones son:\r\n\r\n
     <comment>Contenido pagina de ayuda</comment>
   </data>
   <data name="WelcomeTextContentUser" xml:space="preserve">
-    <value>Hola {0}, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n- ¿Cuál es el teléfono de Línea RH?\r\n- ¿Qué es Job Posting?\r\n- ¿Cuáles son los servicios RH disponibles?\r\n-  Entre otros servicios más....</value>
+    <value>Hola {0}, soy tu asistente multifacética virtual Anna pero como soy experta en mi trabajo mis amigos me dicen Xpertanna.\r\n\r\n"Mi propósito es apoyar a todos los colaboradores de Xpertal a resolver sus dudas sobre los servicios RH de forma fácil y rápida. Si no tuviera la respuesta de alguna de las preguntas que me solicitan, mi misión también es conectarlos con un Asesor RH que pueda ayudarles."\r\n\r\nPara poder ayudarte, solo tienes que preguntarme cosas de los servicios de RH como:\r\n\r\n\r\n- ¿Qué es el Seguro de Gastos Médicos Mayores?\r\n- ¿Cuál es el teléfono de Línea RH?\r\n- ¿Qué es Job Posting?\r\n- ¿Cuáles son los servicios RH disponibles?\r\n-  Entre otros servicios más.... \r\n\r\nO bien da clic en -Toma un tour- para que veas que puedo hacer...</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
   <data name="ExpertSubmitButonTitle" xml:space="preserve">

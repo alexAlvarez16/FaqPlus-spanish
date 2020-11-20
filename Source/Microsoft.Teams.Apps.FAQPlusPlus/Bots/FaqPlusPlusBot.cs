@@ -924,7 +924,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         string notificationContentUser = string.Empty;
                         if (newTicket.RequesterGivenName != null)
                         {
-                            notificationContentUser = string.Format(Strings.NotificationCardContentCustom, newTicket?.RequesterGivenName);
+                            notificationContentUser = string.Format(Strings.NotificationCardContentCustom.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), newTicket?.RequesterGivenName);
                         }
                         else
                         {
@@ -1183,7 +1183,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string txtReopenedTicketUserNotification = string.Empty;
                     if (ticket.RequesterGivenName != null)
                     {
-                        txtReopenedTicketUserNotification = string.Format(Strings.ReopenedTicketUserNotificationUser, ticket?.RequesterGivenName);
+                        txtReopenedTicketUserNotification = string.Format(Strings.ReopenedTicketUserNotificationUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), ticket?.RequesterGivenName);
                     }
                     else
                     {
@@ -1203,7 +1203,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string txtClosedTicketUserNotification = string.Empty;
                     if (ticket.RequesterGivenName != null)
                     {
-                        txtClosedTicketUserNotification = string.Format(Strings.ClosedTicketUserNotificationUser, ticket?.RequesterGivenName);
+                        txtClosedTicketUserNotification = string.Format(Strings.ClosedTicketUserNotificationUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), ticket?.RequesterGivenName);
                     }
                     else
                     {
@@ -1222,7 +1222,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string assignedTicketNotificationUser = string.Empty;
                     if (ticket.RequesterGivenName != null)
                     {
-                        assignedTicketNotificationUser = string.Format(Strings.AssignedTicketUserNotificationCustom, ticket?.RequesterGivenName);
+                        assignedTicketNotificationUser = string.Format(Strings.AssignedTicketUserNotificationCustom.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), ticket?.RequesterGivenName);
                     }
                     else
                     {
