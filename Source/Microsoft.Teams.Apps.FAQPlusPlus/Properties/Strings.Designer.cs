@@ -161,7 +161,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.
+        ///   Busca una cadena traducida similar a Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.\r\n
         ///Te estaré mandando notificaciones, aquí sigo por si me necesitas..
         /// </summary>
         public static string AssignedTicketUserNotificationCustom {
@@ -252,8 +252,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes otras dudas sobre los servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.
-        ///Por otro lado, si nuevamente necesitas ayuda de un Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH-.
+        ///   Busca una cadena traducida similar a Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes otras dudas sobre los servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.\r\n
+        ///Por otro lado, si nuevamente necesitas ayuda de un Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH-.\r\n
         ///Recuerda, aquí sigo por si me necesitas..
         /// </summary>
         public static string ClosedTicketUserNotificationUser {
@@ -680,7 +680,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a {0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.
+        ///   Busca una cadena traducida similar a {0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.\r\n
         ///Te estaré mandando notificaciones, aquí sigo por si me necesitas..
         /// </summary>
         public static string NotificationCardContentCustom {
@@ -834,7 +834,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.
+        ///   Busca una cadena traducida similar a Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.\r\n
         ///Te estaré mandando notificaciones, aquí sigo por si me necesitas..
         /// </summary>
         public static string ReopenedTicketUserNotificationUser {

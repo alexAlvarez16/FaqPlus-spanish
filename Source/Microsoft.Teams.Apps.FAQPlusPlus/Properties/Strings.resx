@@ -306,7 +306,7 @@ Recuerda, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
   </data>
   <data name="ReopenedTicketUserNotificationUser" xml:space="preserve">
-    <value>Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.
+    <value>Hola {0}, estamos realizando algunos ajustes en el equipo y tu solicitud de ayuda cambió a estatus abierta nuevamente. Esto significa que en breve asignaremos a otro Asesor RH y el te enviará un mensaje de chat privado. Te pedimos sigas atento a tu ventana de mensajes de chat.\r\n
 Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido reabierto.</comment>
   </data>
@@ -633,12 +633,12 @@ Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Mensaje de tarjeta de bienvenida</comment>
   </data>
   <data name="AssignedTicketUserNotificationCustom" xml:space="preserve">
-    <value>Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.
+    <value>Hola de nuevo {0}, tu solicitud ha cambiado de estatus ha asignado a un Asesor RH, esto significa que en poco tiempo un Asesor RH te contactará en un chat directo. Te recomiendo que estes atento a los mensajes en tu chat.\r\n
 Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickets es asignado a un Asesor RH.</comment>
   </data>
   <data name="NotificationCardContentCustom" xml:space="preserve">
-    <value>{0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.
+    <value>{0}, en este momento acabo de compartir la solicitud de ayuda con el equipo. Te pido que revises con frecuencia tu chat de conversaciones, en breve un Asesor RH te buscará directamente.\r\n
 Te estaré mandando notificaciones, aquí sigo por si me necesitas.</value>
     <comment>Mensaje de confirmación al usuario que realiza una pregunta al Asesor RH.</comment>
   </data>

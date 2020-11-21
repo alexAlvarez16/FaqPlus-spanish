@@ -924,7 +924,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         string notificationContentUser = string.Empty;
                         if (newTicket.RequesterGivenName != null)
                         {
-                            notificationContentUser = string.Format(Strings.NotificationCardContentCustom.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), newTicket?.RequesterGivenName);
+                            notificationContentUser = string.Format(Strings.NotificationCardContentCustom, newTicket?.RequesterGivenName);
                         }
                         else
                         {
@@ -932,7 +932,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         }
 
                         smeTeamCard = new SmeTicketCard(newTicket).ToAttachment(message?.LocalTimestamp);
-                        userCard = new UserNotificationCard(newTicket).ToAttachment(notificationContentUser, message?.LocalTimestamp);
+                        userCard = new UserNotificationCard(newTicket).ToAttachment(notificationContentUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message?.LocalTimestamp);
                     }
 
                     break;
@@ -1183,7 +1183,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string txtReopenedTicketUserNotification = string.Empty;
                     if (ticket.RequesterGivenName != null)
                     {
-                        txtReopenedTicketUserNotification = string.Format(Strings.ReopenedTicketUserNotificationUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), ticket?.RequesterGivenName);
+                        txtReopenedTicketUserNotification = string.Format(Strings.ReopenedTicketUserNotificationUser, ticket?.RequesterGivenName);
                     }
                     else
                     {
@@ -1191,7 +1191,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     }
 
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtReopenedTicketUserNotification, message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtReopenedTicketUserNotification.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message.LocalTimestamp));
                     // userNotification.Summary = Strings.ReopenedTicketUserNotification;
                     userNotification.Summary = txtReopenedTicketUserNotification;
 
@@ -1203,14 +1203,14 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string txtClosedTicketUserNotification = string.Empty;
                     if (ticket.RequesterGivenName != null)
                     {
-                        txtClosedTicketUserNotification = string.Format(Strings.ClosedTicketUserNotificationUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), ticket?.RequesterGivenName);
+                        txtClosedTicketUserNotification = string.Format(Strings.ClosedTicketUserNotificationUser, ticket?.RequesterGivenName);
                     }
                     else
                     {
                         txtClosedTicketUserNotification = Strings.ClosedTicketUserNotification;
                     }
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtClosedTicketUserNotification, message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtClosedTicketUserNotification.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message.LocalTimestamp));
                     //userNotification.Summary = Strings.ClosedTicketUserNotification;
                     userNotification.Summary = txtClosedTicketUserNotification;
                     break;
@@ -1222,14 +1222,14 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     string assignedTicketNotificationUser = string.Empty;
                     if (ticket.RequesterGivenName != null)
                     {
-                        assignedTicketNotificationUser = string.Format(Strings.AssignedTicketUserNotificationCustom.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), ticket?.RequesterGivenName);
+                        assignedTicketNotificationUser = string.Format(Strings.AssignedTicketUserNotificationCustom, ticket?.RequesterGivenName);
                     }
                     else
                     {
                         assignedTicketNotificationUser = Strings.AssignedTicketUserNotification;
                     }
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUser, message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUse.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n")r, message.LocalTimestamp));
                     userNotification.Summary = Strings.AssignedTicketUserNotification;
                     break;
             }
