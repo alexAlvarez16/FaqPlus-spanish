@@ -1229,7 +1229,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         assignedTicketNotificationUser = Strings.AssignedTicketUserNotification;
                     }
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUse.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n")r, message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message.LocalTimestamp));
                     userNotification.Summary = Strings.AssignedTicketUserNotification;
                     break;
             }
