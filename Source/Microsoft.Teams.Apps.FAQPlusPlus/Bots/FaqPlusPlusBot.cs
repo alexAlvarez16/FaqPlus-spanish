@@ -932,7 +932,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         }
 
                         smeTeamCard = new SmeTicketCard(newTicket).ToAttachment(message?.LocalTimestamp);
-                        userCard = new UserNotificationCard(newTicket).ToAttachment(notificationContentUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message?.LocalTimestamp);
+                        userCard = new UserNotificationCard(newTicket).ToAttachment(notificationContentUser, message?.LocalTimestamp);
                     }
 
                     break;
@@ -1191,7 +1191,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     }
 
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtReopenedTicketUserNotification.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtReopenedTicketUserNotification, message.LocalTimestamp));
                     // userNotification.Summary = Strings.ReopenedTicketUserNotification;
                     userNotification.Summary = txtReopenedTicketUserNotification;
 
@@ -1210,7 +1210,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         txtClosedTicketUserNotification = Strings.ClosedTicketUserNotification;
                     }
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtClosedTicketUserNotification.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(txtClosedTicketUserNotification, message.LocalTimestamp));
                     //userNotification.Summary = Strings.ClosedTicketUserNotification;
                     userNotification.Summary = txtClosedTicketUserNotification;
                     break;
@@ -1229,7 +1229,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                         assignedTicketNotificationUser = Strings.AssignedTicketUserNotification;
                     }
 
-                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), message.LocalTimestamp));
+                    userNotification = MessageFactory.Attachment(new UserNotificationCard(ticket).ToAttachment(assignedTicketNotificationUser, message.LocalTimestamp));
                     userNotification.Summary = Strings.AssignedTicketUserNotification;
                     break;
             }

@@ -296,8 +296,8 @@ Soy tu bot amigable de preguntas y respuestas que ayuda a proporcionar soporte a
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
   </data>
   <data name="ClosedTicketUserNotificationUser" xml:space="preserve">
-    <value>Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes otras dudas sobre los servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.
-Por otro lado, si nuevamente necesitas ayuda de un Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH-.
+    <value>Hola {0}, recibimos tu VoBo y hemos cerrado tu solicitud de ayuda. Si tienes otras dudas sobre los servicios RH, te invito a que utilices la caja de texto y escribas tus preguntas.\r\n
+Por otro lado, si nuevamente necesitas ayuda de un Asesor RH, te pido que des clic en el botón de -Pregunta a un Asesor RH-.\r\n
 Recuerda, aquí sigo por si me necesitas.</value>
     <comment>Texto de notificación enviado al usuario quien levantó una solicitud, cuando el tickes ha sido cerrado.</comment>
   </data>
