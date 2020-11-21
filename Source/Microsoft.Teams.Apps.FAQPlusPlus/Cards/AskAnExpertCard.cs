@@ -191,7 +191,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                     },
                     new AdaptiveTextBlock
                     {
-                        Text =  txtAskAnExpertSubheaderText,
+                        Text =  txtAskAnExpertSubheaderText.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"),
                         Wrap = true,
                     },
                     new AdaptiveColumnSet
