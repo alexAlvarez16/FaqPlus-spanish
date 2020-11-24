@@ -1598,7 +1598,26 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             string text = message.Text?.ToLower()?.Trim() ?? string.Empty;
             try
             {
+                Profiling perfiles;
+                DataTable dtTranspose = new DataTable();
+                dtTranspose.Columns.Add("metadataname");
+                dtTranspose.Columns.Add("metadatavalue");
+                using (StreamReader reader = new StreamReader("C:\\Azure bots\\Prueba local codigo chit chat  + perfiles\\perfil.json"))
+                {
+                    var json = reader.ReadToEnd();
+                    using (var r = ChoJSONReader.LoadText(json))
+                    {
 
+                        foreach (ChoETL.ChoDynamicObject item in r)
+                        {
+                            for (int i = 0; i < item.Values.Count; i++)
+                            {
+                                dtTranspose.Rows.Add(item.KeysArray[i].ToString().ToLower().Trim(), item.ValuesArray[i].ToString().ToLower().Trim());
+                            }
+                        }
+                    }
+
+                }
 
                 var queryResult = new QnASearchResultList();
                 var queryResultTemp = new QnASearchResultList();
