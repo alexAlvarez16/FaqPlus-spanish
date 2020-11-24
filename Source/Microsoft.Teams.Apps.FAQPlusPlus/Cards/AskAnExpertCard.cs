@@ -51,6 +51,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
             return GetCard(cardPayload, showValidationErrors: false);
         }
 
+        public static Attachment GetCard(ResponseCardPayload payload, Microsoft.Bot.Schema.Teams.TeamsChannelAccount member)
+        {
+            var cardPayload = new AskAnExpertCardPayload
+            {
+                Description = payload.UserQuestion,     // Pre-populate the description with the user's question.
+                UserQuestion = payload.UserQuestion,
+                KnowledgeBaseAnswer = payload?.KnowledgeBaseAnswer,
+            };
+
+            return GetCard(cardPayload, showValidationErrors: false, member);
+        }
+
         /// <summary>
         /// This method will construct the card for ask an expert, when invoked from the ask an expert card submit.
         /// </summary>

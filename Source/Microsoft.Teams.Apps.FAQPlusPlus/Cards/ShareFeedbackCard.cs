@@ -36,6 +36,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
             return GetCard(new ShareFeedbackCardPayload(), showValidationErrors: false, member);
         }
 
+        public static Attachment GetCard(ResponseCardPayload payload, Microsoft.Bot.Schema.Teams.TeamsChannelAccount member)
+        {
+            var cardPayload = new ShareFeedbackCardPayload
+            {
+                Description = payload.UserQuestion,     // Pre-populate the description with the user's question
+                UserQuestion = payload.UserQuestion,
+                KnowledgeBaseAnswer = payload?.KnowledgeBaseAnswer,
+            };
+
+            return GetCard(cardPayload, showValidationErrors: false, member);
+        }
+
 
         /// <summary>
         /// This method will construct the card for share feedback, when invoked from the response card.
@@ -68,6 +80,18 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
             else
             {
                 return GetCard(payload, showValidationErrors: true);
+            }
+        }
+
+        public static Attachment GetCard(ShareFeedbackCardPayload payload, Microsoft.Bot.Schema.Teams.TeamsChannelAccount member)
+        {
+            if (payload == null)
+            {
+                return null;
+            }
+            else
+            {
+                return GetCard(payload, showValidationErrors: true, member);
             }
         }
 

@@ -720,7 +720,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             {
                 // User started chat with the bot in personal scope, for the first time.
                 this.logger.LogInformation($"Bot added to 1:1 chat {activity.Conversation.Id}");
-                if(membersAdded[0].Name != null)
+                if (membersAdded[0].Name != null)
                 {
                     var userWelcomeCardAttachment = WelcomeCard.GetCard(string.Format(Strings.WelcomeTextContentUser.Replace("\\t", "\t").Replace("\\n", "\n").Replace("\\r\n", "\r\n"), membersAdded[0].Name));
                     await turnContext.SendActivityAsync(MessageFactory.Attachment(userWelcomeCardAttachment)).ConfigureAwait(false);
@@ -780,7 +780,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 return;
             }
             // Fix text trigger accents
-            string text = message.Text?.ToLower()?.Trim().Replace("á","a").Replace("é","e").Replace("í","i").Replace("ó","o").Replace("ú","u") ?? string.Empty;
+            string text = message.Text?.ToLower()?.Trim().Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u") ?? string.Empty;
 
             switch (text)
             {
@@ -1014,13 +1014,13 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 case Constants.AskAnExpert:
                     this.logger.LogInformation("Sending user ask an expert card (from answer)");
                     var askAnExpertPayload = ((JObject)message.Value).ToObject<ResponseCardPayload>();
-                    await turnContext.SendActivityAsync(MessageFactory.Attachment(AskAnExpertCard.GetCard(askAnExpertPayload))).ConfigureAwait(false);
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(AskAnExpertCard.GetCard(askAnExpertPayload, member))).ConfigureAwait(false);
                     break;
 
                 case Constants.ShareFeedback:
                     this.logger.LogInformation("Sending user share feedback card (from answer)");
                     var shareFeedbackPayload = ((JObject)message.Value).ToObject<ResponseCardPayload>();
-                    await turnContext.SendActivityAsync(MessageFactory.Attachment(ShareFeedbackCard.GetCard(shareFeedbackPayload))).ConfigureAwait(false);
+                    await turnContext.SendActivityAsync(MessageFactory.Attachment(ShareFeedbackCard.GetCard(shareFeedbackPayload, member))).ConfigureAwait(false);
                     break;
 
                 case AskAnExpertCard.AskAnExpertSubmitText:
