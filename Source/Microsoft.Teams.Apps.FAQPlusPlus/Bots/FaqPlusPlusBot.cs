@@ -1608,10 +1608,34 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
 
                dt.Rows.Add("1");
 
+<<<<<<< HEAD
                 var querytest = (
                     from PD in dt.AsEnumerable()
                     select PD
                     );
+=======
+                if (!string.IsNullOrEmpty(message.ReplyToId) && (message.Value != null))
+                {
+                    payload = ((JObject)message.Value).ToObject<ResponseCardPayload>();
+                }
+
+                queryResult = await this.qnaServiceProvider.GenerateAnswerAsync(question: text, isTestKnowledgeBase: false, payload.PreviousQuestions?.First().Id.ToString(), payload.PreviousQuestions?.First().Questions.First()).ConfigureAwait(false);
+                queryResultTemp = await this.qnaServiceProvider.GenerateAnswerAsync(question: text, isTestKnowledgeBase: false, payload.PreviousQuestions?.First().Id.ToString(), payload.PreviousQuestions?.First().Questions.First()).ConfigureAwait(false);
+
+                DataTable dtAnswersId = new DataTable();
+                dtAnswersId.Columns.Add("answerid");
+                dtAnswersId.Columns.Add("answer");
+                dtAnswersId.Columns.Add("score");
+
+                foreach (QnASearchResult item in queryResult.Answers)
+                {
+                    dtAnswersId.Rows.Add(item.Id.ToString().Trim().ToLower(), item.Answer.ToString().Trim().ToLower(), item.Score);
+                }
+
+                IEnumerable<DataRow> metadataquery = from myRow in dtTranspose.AsEnumerable()
+                                                     where myRow.Field<string>("metadatavalue").Trim().ToLower().Replace(" ", "").Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u") != ""
+                                                     select myRow;
+>>>>>>> parent of 6a1f1b7... git ignore 3
 
 
 
