@@ -1623,7 +1623,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 }
 
                 var queryResult = new QnASearchResultList();
-
+                var queryResultTemp = new QnASearchResultList();
 
                 ResponseCardPayload payload = new ResponseCardPayload();
 
