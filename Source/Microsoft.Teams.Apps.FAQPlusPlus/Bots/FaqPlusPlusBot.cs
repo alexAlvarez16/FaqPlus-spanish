@@ -8,10 +8,12 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
     using System.Collections.Generic;
     using System.Data;
     using System.Globalization;
+    using System.IO;
     using System.Linq;
     using System.Net;
     using System.Threading;
     using System.Threading.Tasks;
+    using ChoETL;
     using Microsoft.ApplicationInsights.DataContracts;
     using Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.Models;
     using Microsoft.Bot.Builder;
@@ -1600,22 +1602,69 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             try
             {
 
+                // Consumo de archivo JSON
+                Profiling perfiles;
+                DataTable dtTranspose = new DataTable();
+                dtTranspose.Columns.Add("metadataname");
+                dtTranspose.Columns.Add("metadatavalue");
 
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(@"https://foto-worxpace.azurewebsites.net/api/HttpTrigger1?email=" + "RAYMUNDO.SANTOS@XPERTAL.COM");
+                // TO DO : buscar response, su estatus para evitar el try catch
+                try
+                {
+                    using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                    using (Stream stream = response.GetResponseStream())
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        var json = reader.ReadToEnd();
+                        using (var r = ChoJSONReader.LoadText(json))
+                        {
+
+                            foreach (ChoETL.ChoDynamicObject item in r)
+                            {
+                                for (int i = 0; i < item.Values.Count; i++)
+                                {
+                                    dtTranspose.Rows.Add(item.KeysArray[i].ToString().ToLower().Trim(), item.ValuesArray[i].ToString().ToLower().Trim());
+                                }
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+
+                }
                 var queryResult = new QnASearchResultList();
 
-                DataTable dt = new DataTable();
-               dt.Columns.Add("test");
-
-               dt.Rows.Add("1");
-
-                var querytest = (
-                    from PD in dt.AsEnumerable()
-                    select PD
-                    );
-
-
+                // creamos un objeto qna temporal para manipular
+                var queryResultTemp = new QnASearchResultList();
 
                 ResponseCardPayload payload = new ResponseCardPayload();
+
+                if (!string.IsNullOrEmpty(message.ReplyToId) && (message.Value != null))
+                {
+                    payload = ((JObject)message.Value).ToObject<ResponseCardPayload>();
+                }
+
+                queryResult = await this.qnaServiceProvider.GenerateAnswerAsync(question: text, isTestKnowledgeBase: false, payload.PreviousQuestions?.First().Id.ToString(), payload.PreviousQuestions?.First().Questions.First()).ConfigureAwait(false);
+                queryResultTemp = await this.qnaServiceProvider.GenerateAnswerAsync(question: text, isTestKnowledgeBase: false, payload.PreviousQuestions?.First().Id.ToString(), payload.PreviousQuestions?.First().Questions.First()).ConfigureAwait(false);
+
+                DataTable dtAnswersId = new DataTable();
+                dtAnswersId.Columns.Add("answerid");
+                dtAnswersId.Columns.Add("answer");
+                dtAnswersId.Columns.Add("score");
+
+                foreach (QnASearchResult item in queryResult.Answers)
+                {
+                    dtAnswersId.Rows.Add(item.Id.ToString().Trim().ToLower(), item.Answer.ToString().Trim().ToLower(), item.Score);
+                }
+
+                IEnumerable<DataRow> metadataquery = from myRow in dtTranspose.AsEnumerable()
+                                                     where myRow.Field<string>("metadatavalue").Trim().ToLower().Replace(" ", "").Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u") != ""
+                                                     select myRow;
+
+
+
 
                 if (!string.IsNullOrEmpty(message.ReplyToId) && (message.Value != null))
                 {
