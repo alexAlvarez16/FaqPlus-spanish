@@ -42,6 +42,37 @@
           "lib/netstandard1.1/Antlr4.Runtime.dll": {}
         }
       },
+      "ChoETL/1.2.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "System.CodeDom": "4.4.0",
+          "System.ComponentModel.Annotations": "4.4.1",
+          "System.Configuration.ConfigurationManager": "4.4.1",
+          "System.Data.SqlClient": "4.4.3",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/ChoETL.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/ChoETL.Core.dll": {}
+        }
+      },
+      "ChoETL.JSON/1.2.1.4": {
+        "type": "package",
+        "dependencies": {
+          "ChoETL": "1.2.1.4",
+          "Newtonsoft.Json": "12.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/ChoETL.JSON.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/ChoETL.JSON.Core.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/2.14.0": {
         "type": "package",
         "dependencies": {
@@ -3520,6 +3551,15 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3664,7 +3704,7 @@
           "System.Security.Permissions": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
@@ -4357,7 +4397,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -5289,6 +5329,34 @@
         "lib/netstandard1.1/Antlr4.Runtime.xml",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr4.Runtime.dll",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr4.Runtime.xml"
+      ]
+    },
+    "ChoETL/1.2.1.4": {
+      "sha512": "V2aeGzRZGhw+cZrR0yIR1oW5HfUL+1LNUiPGmt9qQyNwYhspoNmlfojBNKOPHKYEa4csFF0i8EK3y+7TYOdfkg==",
+      "type": "package",
+      "path": "choetl/1.2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "choetl.1.2.1.4.nupkg.sha512",
+        "choetl.nuspec",
+        "lib/net45/ChoETL.dll",
+        "lib/netcoreapp2.0/ChoETL.Core.dll",
+        "lib/netstandard2.0/ChoETL.Core.dll"
+      ]
+    },
+    "ChoETL.JSON/1.2.1.4": {
+      "sha512": "qhgJhBF6Dgopc/QkrR23q/OqF4E2Hn26dxFoJkET0dWi/C8x7ZE3c2g4X5uOiXVjsbbCuGYSVZEYGd/nf2ZSRA==",
+      "type": "package",
+      "path": "choetl.json/1.2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "choetl.json.1.2.1.4.nupkg.sha512",
+        "choetl.json.nuspec",
+        "lib/net45/ChoETL.JSON.dll",
+        "lib/netcoreapp2.0/ChoETL.JSON.Core.dll",
+        "lib/netstandard2.0/ChoETL.JSON.Core.dll"
       ]
     },
     "Microsoft.ApplicationInsights/2.14.0": {
@@ -9332,6 +9400,27 @@
         "ref/uap10.0.16299/_._",
         "system.buffers.4.5.0.nupkg.sha512",
         "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.CodeDom/4.4.0": {
+      "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "type": "package",
+      "path": "system.codedom/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.4.4.0.nupkg.sha512",
+        "system.codedom.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -14142,6 +14231,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "AdaptiveCards >= 1.2.4",
+      "ChoETL.JSON >= 1.2.1.4",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.14.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker >= 1.1.0",
@@ -14208,6 +14298,10 @@
           "AdaptiveCards": {
             "target": "Package",
             "version": "[1.2.4, )"
+          },
+          "ChoETL.JSON": {
+            "target": "Package",
+            "version": "[1.2.1.4, )"
           },
           "Microsoft.ApplicationInsights.AspNetCore": {
             "target": "Package",
@@ -14282,5 +14376,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ChoETL.JSON 1.2.1.4 depende de Newtonsoft.Json (>= 12.0.0), pero no se encontró Newtonsoft.Json 12.0.0. Se resolvió una mejor coincidencia aproximada de Newtonsoft.Json 12.0.1.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }
