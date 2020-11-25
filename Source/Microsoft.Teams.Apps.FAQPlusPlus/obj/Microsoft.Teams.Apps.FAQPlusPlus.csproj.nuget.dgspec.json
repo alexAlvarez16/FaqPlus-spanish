@@ -151,6 +151,10 @@
               "target": "Package",
               "version": "[1.2.4, )"
             },
+            "ChoETL.JSON": {
+              "target": "Package",
+              "version": "[1.2.1.4, )"
+            },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
               "version": "[2.14.0, )"
