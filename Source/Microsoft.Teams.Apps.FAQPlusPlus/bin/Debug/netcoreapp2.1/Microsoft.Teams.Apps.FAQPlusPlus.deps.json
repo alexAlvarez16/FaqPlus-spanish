@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8e015b5bd90972da42b8ded043015b1347cc8e94"
+    "signature": "7f77f25dc7cc9e5a30c591ed86710f7798f959f0"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "Microsoft.Teams.Apps.FAQPlusPlus/1.0.0": {
         "dependencies": {
           "AdaptiveCards": "1.2.4",
+          "ChoETL.JSON": "1.2.1.4",
           "Microsoft.ApplicationInsights.AspNetCore": "2.14.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker": "1.1.0",
@@ -93,6 +94,41 @@
         },
         "compile": {
           "lib/netstandard1.1/Antlr4.Runtime.dll": {}
+        }
+      },
+      "ChoETL/1.2.1.4": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.CodeDom": "4.4.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Data.SqlClient": "4.5.1",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/ChoETL.Core.dll": {
+            "assemblyVersion": "1.2.1.4",
+            "fileVersion": "1.2.1.4"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/ChoETL.Core.dll": {}
+        }
+      },
+      "ChoETL.JSON/1.2.1.4": {
+        "dependencies": {
+          "ChoETL": "1.2.1.4",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/ChoETL.JSON.Core.dll": {
+            "assemblyVersion": "1.2.1.4",
+            "fileVersion": "1.2.1.4"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/ChoETL.JSON.Core.dll": {}
         }
       },
       "Microsoft.ApplicationInsights/2.14.0": {
@@ -1165,6 +1201,17 @@
         }
       },
       "StyleCop.Analyzers/1.1.118": {},
+      "System.CodeDom/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections.NonGeneric/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -1227,6 +1274,9 @@
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.700.19.56404"
           }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Data.DataSetExtensions/4.5.0": {
@@ -4292,6 +4342,20 @@
       "path": "antlr4.runtime/4.6.6",
       "hashPath": "antlr4.runtime.4.6.6.nupkg.sha512"
     },
+    "ChoETL/1.2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V2aeGzRZGhw+cZrR0yIR1oW5HfUL+1LNUiPGmt9qQyNwYhspoNmlfojBNKOPHKYEa4csFF0i8EK3y+7TYOdfkg==",
+      "path": "choetl/1.2.1.4",
+      "hashPath": "choetl.1.2.1.4.nupkg.sha512"
+    },
+    "ChoETL.JSON/1.2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qhgJhBF6Dgopc/QkrR23q/OqF4E2Hn26dxFoJkET0dWi/C8x7ZE3c2g4X5uOiXVjsbbCuGYSVZEYGd/nf2ZSRA==",
+      "path": "choetl.json/1.2.1.4",
+      "hashPath": "choetl.json.1.2.1.4.nupkg.sha512"
+    },
     "Microsoft.ApplicationInsights/2.14.0": {
       "type": "package",
       "serviceable": true,
@@ -4774,6 +4838,13 @@
       "sha512": "sha512-Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
       "path": "stylecop.analyzers/1.1.118",
       "hashPath": "stylecop.analyzers.1.1.118.nupkg.sha512"
+    },
+    "System.CodeDom/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "path": "system.codedom/4.4.0",
+      "hashPath": "system.codedom.4.4.0.nupkg.sha512"
     },
     "System.Collections.NonGeneric/4.3.0": {
       "type": "package",
