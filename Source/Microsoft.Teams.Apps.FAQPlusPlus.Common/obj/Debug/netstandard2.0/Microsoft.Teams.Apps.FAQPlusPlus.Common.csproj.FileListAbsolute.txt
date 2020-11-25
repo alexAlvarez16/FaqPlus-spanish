@@ -1,0 +1,9 @@
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\bin\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.deps.json
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\bin\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.dll
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\bin\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.pdb
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\bin\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.xml
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.csprojAssemblyReference.cache
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.AssemblyInfoInputs.cache
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.AssemblyInfo.cs
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.dll
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.pdb
