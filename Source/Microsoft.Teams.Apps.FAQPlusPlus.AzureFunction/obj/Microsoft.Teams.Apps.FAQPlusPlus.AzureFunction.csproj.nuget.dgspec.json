@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.csproj",
+        "projectName": "Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction",
+        "projectPath": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.csproj",
+        "packagesPath": "C:\\Users\\ralvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ralvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.Common\\Microsoft.Teams.Apps.FAQPlusPlus.Common.csproj": {
+                "projectPath": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.Common\\Microsoft.Teams.Apps.FAQPlusPlus.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.29, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.Common\\Microsoft.Teams.Apps.FAQPlusPlus.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.Common\\Microsoft.Teams.Apps.FAQPlusPlus.Common.csproj",
+        "projectName": "Microsoft.Teams.Apps.FAQPlusPlus.Common",
+        "projectPath": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.Common\\Microsoft.Teams.Apps.FAQPlusPlus.Common.csproj",
+        "packagesPath": "C:\\Users\\ralvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ralvarez\\Documents\\Github\\FaqPlus-spanish\\Source\\Microsoft.Teams.Apps.FAQPlusPlus.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ralvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.Search": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "Microsoft.Bot.Schema": {
+              "target": "Package",
+              "version": "[4.6.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

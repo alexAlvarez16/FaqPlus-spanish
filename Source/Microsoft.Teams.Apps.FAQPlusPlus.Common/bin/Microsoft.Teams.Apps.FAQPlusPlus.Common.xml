@@ -1,0 +1,1356 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Teams.Apps.FAQPlusPlus.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants">
+            <summary>
+            constants.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.Source">
+            <summary>
+            Source.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.DeleteCommand">
+            <summary>
+            Delete command.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.NoCommand">
+            <summary>
+            No command.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.ValidRedirectUrlPattern">
+            <summary>
+            Regular expression pattern for valid redirection url.
+            It checks whether the url is valid or not, while adding/editing the qna pair.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.MetadataCreatedAt">
+            <summary>
+            Name of the QnA metadata property to map with the date and time the item was added.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.MetadataCreatedBy">
+            <summary>
+            Name of the QnA metadata property to map with the user who created the item.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.MetadataConversationId">
+            <summary>
+            Name of the QnA metadata property to map with the conversation id of the item.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.MetadataUpdatedAt">
+            <summary>
+              Name of the QnA metadata property to map with the date and time the item was updated.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.MetadataUpdatedBy">
+            <summary>
+            Name of the QnA metadata property to map with the user who updated the item.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.MetadataActivityReferenceId">
+            <summary>
+            Name of the QnA metadata property to map with the activity reference id for future reference.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.TeamTour">
+            <summary>
+            TeamTour - text that triggers team tour action.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.TakeATour">
+            <summary>
+            TakeAtour - text that triggers take a tour action for the user.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.AskAnExpert">
+            <summary>
+            AskAnExpert - text that renders the ask an expert card.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.ShareFeedback">
+            <summary>
+            Feedback - text that renders share feedback card.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.TicketTableName">
+            <summary>
+            Table name where SME activity details from bot will be saved.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.KnowledgeBaseEntityId">
+            <summary>
+            Name of column value to map with knowledgebase id in table storage.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.StorageContainer">
+            <summary>
+            FAQ Plus blob storage container name.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.BlobFolderName">
+            <summary>
+            FAQ Plus folder name under FAQ Plus blob storage container name.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.PreviewCardCommandText">
+            <summary>
+            Represents the command text to identify the action.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Constants.AskAnExpertDefaultTitle">
+            <summary>
+            Represents the default title for askanexpert card
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException">
+            <summary>
+            Represents an error in ticket validation.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException"/> class.
+            </summary>
+            <param name="message">The message to capture.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Exceptions.TicketValidationException"/> class.
+            </summary>
+            <param name="message">The message to capture/throw.</param>
+            <param name="inner">The inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity">
+            <summary>
+            Activity entity to store activity id and guid for mapping purpose.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity.ActivityPartitionKey">
+            <summary>
+            Activity table store partition key name.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity"/> class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity.ActivityId">
+            <summary>
+            Gets or sets activity id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity.ActivityReferenceId">
+            <summary>
+            Gets or sets the activity reference id.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData">
+            <summary>
+            Adaptive Card Action class to post question data.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.UpdatedQuestion">
+            <summary>
+            Gets or sets Updated question.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.Title">
+            <summary>
+            Gets or sets Title.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.Subtitle">
+            <summary>
+            Gets or sets Subtitle.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.Description">
+            <summary>
+            Gets or sets Description.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.ImageUrl">
+            <summary>
+            Gets or sets ImageUrl.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.RedirectionUrl">
+            <summary>
+            Gets or sets RedirectionUrl.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.Answer">
+            <summary>
+            Gets or sets Answer.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.ActivityId">
+            <summary>
+            Gets or sets activity id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.PreviewButtonCommandText">
+            <summary>
+            Gets or sets preview button command text to identify the performed action while adding/editing the QnA pair.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.BackButtonCommandText">
+            <summary>
+            Gets or sets back button command text to identify the performed action while previewing the QnA pair.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.UpdateHistoryData">
+            <summary>
+            Gets or sets back button to identify it.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.OriginalQuestion">
+            <summary>
+            Gets or sets original question.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsQnaNullOrEmpty">
+            <summary>
+            Gets or sets a value indicating whether the qna pair is null or empty.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsHTMLPresent">
+            <summary>
+            Gets or sets a value indicating whether the html is present in input field.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsInvalidImageUrl">
+            <summary>
+            Gets or sets a value indicating whether the image redirect url is invalid.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsInvalidRedirectUrl">
+            <summary>
+            Gets or sets a value indicating whether the image redirect url is invalid.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsQuestionAlreadyExists">
+            <summary>
+            Gets or sets a value indicating whether the question is already present in knowledgebase.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsTestKnowledgeBase">
+            <summary>
+            Gets or sets a value indicating whether the query is for test or production knowledgebase.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsRichCard">
+            <summary>
+            Gets or sets a value indicating whether the card is with image and title or normal card.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AdaptiveSubmitActionData.IsPreviewCard">
+            <summary>
+            Gets or sets a value indicating whether the card is displaying as preview.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AnswerModel">
+            <summary>
+            Represents the FAQPlus QnA Maker answer response model.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AnswerModel.Description">
+            <summary>
+            Gets or sets Description.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AnswerModel.Title">
+            <summary>
+            Gets or sets Title.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AnswerModel.Subtitle">
+            <summary>
+            Gets or sets Subtitle.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AnswerModel.ImageUrl">
+            <summary>
+            Gets or sets ImageUrl.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AnswerModel.RedirectionUrl">
+            <summary>
+            Gets or sets RedirectionUrl.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AskAnExpertCardPayload">
+            <summary>
+            Represents the submit data associated with the Ask An Expert card.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AskAnExpertCardPayload.Title">
+            <summary>
+            Gets or sets the user title text for ask an expert button.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AskAnExpertCardPayload.Description">
+            <summary>
+            Gets or sets the question for the expert being asked by the user through bot command.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AskAnExpertCardPayload.UserQuestion">
+            <summary>
+            Gets or sets the question for the expert being asked by the user through Response card-
+            Response Card: Response generated by the bot to user question by calling QnA Maker service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AskAnExpertCardPayload.KnowledgeBaseAnswer">
+            <summary>
+            Gets or sets the answer for the expert- Answer sent to the SME team along with feedback
+            provided by the user on response given by bot calling QnA Maker service.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity">
+            <summary>
+            This entity is used for azure search.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.Id">
+            <summary>
+            Gets or sets Question Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.Answer">
+            <summary>
+            Gets or sets Answer text.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.Source">
+            <summary>
+            Gets or sets Source.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.Questions">
+            <summary>
+            Gets or sets list of Questions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.Metadata">
+            <summary>
+            Gets or sets Metadata.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.CreatedDate">
+            <summary>
+            Gets or sets CreatedDate.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.AzureSearchEntity.UpdatedDate">
+            <summary>
+            Gets or sets UpdatedDate.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ChangeTicketStatusPayload">
+            <summary>
+            Represents the data payload of Action.Submit to change the status of a ticket.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ChangeTicketStatusPayload.ReopenAction">
+            <summary>
+            Action that reopens a closed ticket.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ChangeTicketStatusPayload.CloseAction">
+            <summary>
+            Action that closes a ticket.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ChangeTicketStatusPayload.AssignToSelfAction">
+            <summary>
+            Action that assigns a ticket to the person that performed the action.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ChangeTicketStatusPayload.TicketId">
+            <summary>
+            Gets or sets the ticket id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ChangeTicketStatusPayload.Action">
+            <summary>
+            Gets or sets the action to perform on the ticket.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntity">
+            <summary>
+            Represents configuration entity used for storage and retrieval.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntity.Data">
+            <summary>
+            Gets or sets data which will be stored in table storage.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntityTypes">
+            <summary>
+            Configuration entity type names.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntityTypes.TeamId">
+            <summary>
+            Team entity.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntityTypes.KnowledgeBaseId">
+            <summary>
+            Knowledge base entity.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntityTypes.WelcomeMessageText">
+            <summary>
+            Welcome message entity.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntityTypes.HelpTabText">
+            <summary>
+            Help tab text entity.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntityTypes.QnAMakerEndpointKey">
+            <summary>
+            QnaMaker endpoint key entity.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.BotSettings">
+            <summary>
+            Provides app settings related to FaqPlusPlus bot.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.BotSettings.AccessCacheExpiryInDays">
+            <summary>
+            Gets or sets access cache expiry in days.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.BotSettings.AppBaseUri">
+            <summary>
+            Gets or sets application base uri.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.BotSettings.MicrosoftAppId">
+            <summary>
+            Gets or sets microsoft app id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.BotSettings.TenantId">
+            <summary>
+            Gets or sets access tenant id string.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings">
+            <summary>
+            Provides  settings related to KnowledgeBaseSearchService.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings.StorageConnectionString">
+            <summary>
+            Gets or sets storage connection string.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings.SearchServiceName">
+            <summary>
+            Gets or sets search service name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings.SearchServiceQueryApiKey">
+            <summary>
+            Gets or sets search service query api key.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings.SearchServiceAdminApiKey">
+            <summary>
+            Gets or sets search service admin api key.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings.SearchIndexingIntervalInMinutes">
+            <summary>
+            Gets or sets search indexing interval in minutes.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.QnAMakerSettings">
+            <summary>
+            Provides app settings related to QnAMakerServiceProvider.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.QnAMakerSettings.ScoreThreshold">
+            <summary>
+            Gets or Sets scorethreshold.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.FeedbackRating">
+            <summary>
+            Represents the user rating given for feedback.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.FeedbackRating.NotHelpful">
+            <summary>
+            Not helpful.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.FeedbackRating.NeedsImprovement">
+            <summary>
+            Needs improvement.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.FeedbackRating.Helpful">
+            <summary>
+            Helpful.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ResponseCardPayload">
+            <summary>
+            Represents the payload of a response card.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ResponseCardPayload.UserQuestion">
+            <summary>
+            Gets or sets the question that was asked originally asked by the user.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ResponseCardPayload.KnowledgeBaseAnswer">
+            <summary>
+            Gets or sets the response given by the bot to the user.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ResponseCardPayload.PreviousQuestions">
+            <summary>
+            Gets or sets list of previous questions when a follow up prompt is selected.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ResponseCardPayload.IsPrompt">
+            <summary>
+            Gets or sets a value indicating whether question is from prompt.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ShareFeedbackCardPayload">
+            <summary>
+            This model class is responsible to model user activity with bot-
+            asking a question or providing feedback on app or on results given by the bot to the user.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ShareFeedbackCardPayload.Rating">
+            <summary>
+            Gets or sets the action when user submits feedback rating.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ShareFeedbackCardPayload.Description">
+            <summary>
+            Gets or sets the bot feedback.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ShareFeedbackCardPayload.UserQuestion">
+            <summary>
+            Gets or sets the question for the expert being asked by the user through Response card-
+            Response Card: Response generated by the bot to user question by calling QnA Maker service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ShareFeedbackCardPayload.KnowledgeBaseAnswer">
+            <summary>
+            Gets or sets the answer for the expert- Answer sent to the SME team along with feedback
+            provided by the user on response given by bot calling QnA Maker service.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TeamsAdaptiveSubmitActionData">
+            <summary>
+            Defines Teams-specific behavior for an adaptive card submit action.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TeamsAdaptiveSubmitActionData.MsTeams">
+            <summary>
+            Gets or sets the Teams-specific action.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity">
+            <summary>
+            Represents Ticket entity used for storage and retrieval.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.TicketId">
+            <summary>
+            Gets or sets the unique ticket id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.Status">
+            <summary>
+            Gets or sets status of the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.Title">
+            <summary>
+            Gets or sets the ticket title.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.Description">
+            <summary>
+            Gets or sets the ticket description.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.DateCreated">
+            <summary>
+            Gets or sets the created date of ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.RequesterName">
+            <summary>
+            Gets or sets the display name of the user that created the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.RequesterUserPrincipalName">
+            <summary>
+            Gets or sets the user principal name (UPN) of the user that created the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.RequesterGivenName">
+            <summary>
+            Gets or sets the given name of the user that created the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.RequesterConversationId">
+            <summary>
+            Gets or sets the conversation id of the 1:1 chat with the user that created the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.SmeCardActivityId">
+            <summary>
+            Gets or sets the activity id of the root card in the SME channel.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.SmeThreadConversationId">
+            <summary>
+            Gets or sets the conversation id of the thread pertaining to this ticket in the SME channel.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.DateAssigned">
+            <summary>
+            Gets or sets the UTC date and time the ticket was last assigned.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.AssignedToName">
+            <summary>
+            Gets or sets the display name of the assigned SME currently working on the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.AssignedToObjectId">
+            <summary>
+            Gets or sets the AAD object id of the assigned SME currently working on the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.DateClosed">
+            <summary>
+            Gets or sets the UTC date and time the ticket was closed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.LastModifiedByName">
+            <summary>
+            Gets or sets the display name of the user that last modified the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.LastModifiedByObjectId">
+            <summary>
+            Gets or sets the AAD object id of the user that last modified the ticket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.UserQuestion">
+            <summary>
+            Gets or sets the question that the user typed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.KnowledgeBaseAnswer">
+            <summary>
+            Gets or sets the answer returned to the user from the knowledgebase.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.Timestamp">
+            <summary>
+            Gets timestamp from storage table.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity.IsAssigned">
+            <summary>
+            Checks whether a ticket is assigned or not.
+            </summary>
+            <returns>Boolean value where true represent ticket is assigned while false represent ticket is not assigned.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketSearchScope">
+            <summary>
+            Ticket search scope.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketSearchScope.RecentTickets">
+            <summary>
+            Recent tickets.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketSearchScope.OpenTickets">
+            <summary>
+            Open tickets.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketSearchScope.AssignedTickets">
+            <summary>
+            Tickets assigned to a subject-matter expert.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketState">
+            <summary>
+            Represents the current status of a ticket.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketState.Open">
+            <summary>
+            Represents an active ticket.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketState.Closed">
+            <summary>
+            Represents a ticket that requires no further action.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketState.MaxValue">
+            <summary>
+            Sentinel value.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider">
+            <summary>
+            Storage provider for Activities table.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.ActivityTableName">
+            <summary>
+            Table name which stores activity id of responded card.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.ActivityParitionKey">
+            <summary>
+            Partition key value of activity entity table storage.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.initializeTask">
+            <summary>
+            Task for initialization.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.cloudTableClient">
+            <summary>
+            CloudTableClient object provides a service client for accessing the azure Table service.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.cloudTable">
+            <summary>
+            CloudTable object that represents a table.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider"/> class.
+            </summary>
+            <param name="optionsAccessor">A set of key/value application configuration properties.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.GetAsync(System.String)">
+            <summary>
+            Get activity ids.
+            </summary>
+            <param name="activityReferenceId">Unique GUID referencing to activity id.</param>
+            <returns>Activity entity object.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.AddActivityEntityAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity)">
+            <summary>
+            Add the activity entity object in table storage.
+            </summary>
+            <param name="activityEntity">Activity table entity.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents activity entity object is added in table storage successfully while false indicates failure in saving data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.GetActivityEntitiesAsync">
+            <summary>
+            Get all activity ids.
+            </summary>
+            <returns>List of activity ids.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.DeleteActivityEntityAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity)">
+            <summary>
+            This method delete the activity record from table.
+            </summary>
+            <param name="activityEntity">Activity table entity.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents activity record is successfully deleted from table while false indicates failure in deleting data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.EnsureInitializedAsync">
+            <summary>
+            Ensure table storage connection is initialized.
+            </summary>
+            <returns>Initialized task.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ActivityStorageProvider.InitializeAsync(System.String)">
+            <summary>
+            Create tables if it doesn't exist.
+            </summary>
+            <param name="connectionString">Storage account connection string.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> Representing the asynchronous operation task which represents table is created if its not existing.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider">
+            <summary>
+            ConfigurationProvider used to store and fetch configuration values stored in azure table storage.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.ConfigurationTableName">
+            <summary>
+            Configuration info table name.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.ConfigurationPartitionKey">
+            <summary>
+            Partition key of Confiugration info table.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider"/> class.
+            </summary>
+            <param name="connectionString">Connection string of storage provided by dependency injection.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.UpsertEntityAsync(System.String,System.String)">
+            <summary>
+            Save or update entity based on entity type.
+            </summary>
+            <param name="updatedData">Updated data received from view page.</param>
+            <param name="entityType">EntityType received from view based on which appropriate row will replaced or inserted in table storage.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents updated data is saved or updated successfully while false indicates failure in saving or updating the updated data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.GetSavedEntityDetailAsync(System.String)">
+            <summary>
+            Get already saved entity detail from storage table.
+            </summary>
+            <param name="entityType">EntityType received from view based on which appropriate row data will be fetched.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/>Already saved entity detail.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.StoreOrUpdateEntityAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ConfigurationEntity)">
+            <summary>
+            Store or update configuration entity in table storage.
+            </summary>
+            <param name="entity">Configuration entity object.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> That represents configuration entity is saved or updated.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.InitializeAsync(System.String)">
+            <summary>
+            Create teams table if it doesn't exist.
+            </summary>
+            <param name="connectionString">Storage account connection string.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> Representing the asynchronous operation task which represents table is created if its not existing.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ConfigurationDataProvider.EnsureInitializedAsync">
+            <summary>
+            Initialization of InitializeAsync method which will help in creating table.
+            </summary>
+            <returns>Initialized task with values.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IActivityStorageProvider">
+            <summary>
+            IActivityStorageProvider interface.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IActivityStorageProvider.AddActivityEntityAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity)">
+            <summary>
+            Add the activity entity object in table storage.
+            </summary>
+            <param name="activity">Activity table entity.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents activity entity object is added in table storage successfully while false indicates failure in saving data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IActivityStorageProvider.GetAsync(System.String)">
+            <summary>
+            Get activity ids.
+            </summary>
+            <param name="activityReferenceId">Unique GUID referencing to activity id.</param>
+            <returns>Activity data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IActivityStorageProvider.GetActivityEntitiesAsync">
+            <summary>
+            Get all activity ids.
+            </summary>
+            <returns>List of activity ids.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IActivityStorageProvider.DeleteActivityEntityAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.ActivityEntity)">
+            <summary>
+            This method delete the activity record from table.
+            </summary>
+            <param name="activity">Activity table entity.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents activity record is successfully deleted from table while false indicates failure in deleting data.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IConfigurationDataProvider">
+            <summary>
+            Interface of Configuration provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IConfigurationDataProvider.UpsertEntityAsync(System.String,System.String)">
+            <summary>
+            Save or update entity based on entity type.
+            </summary>
+            <param name="updatedData">Updated data received from view page.</param>
+            <param name="entityType">EntityType received from view based on which appropriate row will replaced or inserted in table storage.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents updated data is saved or updated successfully while false indicates failure in saving or updating the updated data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IConfigurationDataProvider.GetSavedEntityDetailAsync(System.String)">
+            <summary>
+            Get already saved entity detail from storage table.
+            </summary>
+            <param name="entityType">EntityType received from view based on which appropriate row data will be fetched.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/>Already saved entity detail.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IKnowledgeBaseSearchService">
+            <summary>
+            Azure blob search service interface.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IKnowledgeBaseSearchService.GetAzureSearchEntitiesAsync(System.String)">
+            <summary>
+            This method gives search result(Knowledgebase QnA pairs) based on search query for messaging extension.
+            </summary>
+            <param name="searchQuery">Search query for question and answer pair.</param>
+            <returns>Search result list.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IKnowledgeBaseSearchService.InitializeSearchServiceDependencyAsync">
+            <summary>
+            Creates Index, Data Source and Indexer for search service.
+            </summary>
+            <returns>A task that represents the work queued to execute.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider">
+            <summary>
+            Qna maker service provider interface.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.AddQnaAsync(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            This method is used to add QnA pair in Kb.
+            </summary>
+            <param name="question">Question text.</param>
+            <param name="combinedDescription">Answer text.</param>
+            <param name="createdBy">Created by user name.</param>
+            <param name="conversationId">Conversation id.</param>
+            <param name="activityReferenceId">Activity reference id.</param>
+            <returns>Operation status of performed action.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.DeleteQnaAsync(System.Int32)">
+            <summary>
+            This method is used to delete Qna pair from KB.
+            </summary>
+            <param name="questionId">Question id.</param>
+            <returns>Delete response.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.DownloadKnowledgebaseAsync(System.String)">
+            <summary>
+            This method returns the downloaded knowledgebase documents.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase Id.</param>
+            <returns>Json string.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.GenerateAnswerAsync(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Get answer from knowledgebase for a given question.
+            </summary>
+            <param name="question">Question text.</param>
+            <param name="isTestKnowledgeBase">Prod or test.</param>
+            <param name="previousQnAId">Id of previous question.</param>
+            <param name="previousUserQuery">Previous question information.</param>
+            <returns>QnaSearchResult object as response.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.UpdateQnaAsync(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            This method is used to update Qna pair in Kb.
+            </summary>
+            <param name="questionId">Question id.</param>
+            <param name="answer">Answer text.</param>
+            <param name="updatedBy">Updated by user.</param>
+            <param name="updatedQuestion">Updated question text.</param>
+            <param name="question">Original question text.</param>
+            <returns>Task of updated action.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.GetPublishStatusAsync(System.String)">
+            <summary>
+            Checks whether knowledgebase need to be published.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase id.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents knowledgebase need to be published while false indicates knowledgebase not need to be published.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.PublishKnowledgebaseAsync(System.String)">
+            <summary>
+            Method is used to publish knowledgebase.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase Id.</param>
+            <returns>Task for published data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider.GetInitialPublishedStatusAsync(System.String)">
+            <summary>
+            Get knowledgebase published information.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase id.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents knowledgebase has published atleast once while false indicates that knowledgebase has not published yet.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ISearchService">
+            <summary>
+            Interface of Search Service provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ISearchService.SearchTicketsAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketSearchScope,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Provide search result for table to be used by SME based on Azure search service.
+            </summary>
+            <param name="searchScope">Scope of the search.</param>
+            <param name="searchQuery">searchQuery to be provided by message extension.</param>
+            <param name="count">Number of search results to return.</param>
+            <param name="skip">Number of search results to skip.</param>
+            <returns>List of search results.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ISearchServiceDataProvider">
+            <summary>
+            Search service data provider interface.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ISearchServiceDataProvider.SetupAzureSearchDataAsync(System.String)">
+            <summary>
+            This method downloads the knowledgebase and stores the json string to blob storage.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase id.</param>
+            <returns>Task of azure search data.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ITicketsProvider">
+            <summary>
+            Interface of Tickets provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ITicketsProvider.UpsertTicketAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity)">
+            <summary>
+            Save or update ticket entity.
+            </summary>
+            <param name="ticket">Ticket received from bot based on which appropriate row will replaced or inserted in table storage.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> that resolves successfully if the data was saved successfully.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ITicketsProvider.GetTicketAsync(System.String)">
+            <summary>
+            Get already saved entity detail from storage table.
+            </summary>
+            <param name="ticketId">ticket id received from bot based on which appropriate row data will be fetched.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> Already saved entity detail.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService">
+            <summary>
+            Azure blob search service class for question and answer pairs.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.KnowledgeBaseSearchIndexName">
+            <summary>
+            Search index name for knowledge base search service.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.KnowledgeBaseDataSourceName">
+            <summary>
+            Data source name for knowledge base search service.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService"/> class.
+            </summary>
+            <param name="searchServiceName">Search service name.</param>
+            <param name="searchServiceQueryApiKey">Search service query api key.</param>
+            <param name="searchServiceAdminApiKey">Search service admin api key.</param>
+            <param name="storageConnectionString">Storage connection string.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.GetAzureSearchEntitiesAsync(System.String)">
+            <summary>
+            This method gives search result(Knowledgebase QnA pairs) based on search query for messaging extension.
+            </summary>
+            <param name="searchQuery">Search query for question and answer pair.</param>
+            <returns>Search result list.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.InitializeSearchServiceDependencyAsync">
+            <summary>
+            Creates Index, Data Source and Indexer for search service.
+            </summary>
+            <returns>A task that represents the work queued to execute.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.CreateSearchIndexAsync(Microsoft.Azure.Search.ISearchServiceClient)">
+            <summary>
+            Creates new SearchIndex with INDEX_NAME provided, if already exists then delete the index and create again.
+            </summary>
+            <param name="searchClient">Search client.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.CreateDataSourceAsync(Microsoft.Azure.Search.ISearchServiceClient)">
+            <summary>
+            Creates new DataSource with DATASOURCE_NAME provided, if already exist no change happen.
+            </summary>
+            <param name="searchClient">Search client.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.CreateIndexerAsync(Microsoft.Azure.Search.ISearchServiceClient)">
+            <summary>
+            Creates new Indexer with INDEXER_NAME provided, if already exist no change happen.
+            </summary>
+            <param name="searchClient">Search client.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.KnowledgeBaseSearchService.InitializeSearchService">
+            <summary>
+            Initialize the search service client.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider">
+            <summary>
+            Qna maker service provider class.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.EnvironmentType">
+            <summary>
+            Environment type.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.options">
+            <summary>
+            Represents a set of key/value application configuration properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.#ctor(Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IConfigurationDataProvider,Microsoft.Extensions.Options.IOptionsMonitor{Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.QnAMakerSettings},Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IQnAMakerClient,Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IQnAMakerRuntimeClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider"/> class.
+            </summary>
+            <param name="configurationProvider">ConfigurationProvider fetch and store information in storage table.</param>
+            <param name="optionsAccessor">A set of key/value application configuration properties.</param>
+            <param name="qnaMakerClient">Qna service client.</param>
+            <param name="qnaMakerRuntimeClient">Qna service runtime client.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.#ctor(Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IConfigurationDataProvider,Microsoft.Extensions.Options.IOptionsMonitor{Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.QnAMakerSettings},Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IQnAMakerClient)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider"/> class.
+            </summary>
+            <param name="configurationProvider">ConfigurationProvider fetch and store information in storage table.</param>
+            <param name="optionsAccessor">A set of key/value application configuration properties.</param>
+            <param name="qnaMakerClient">Qna service client.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.AddQnaAsync(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            This method is used to add QnA pair in Kb.
+            </summary>
+            <param name="question">Question text.</param>
+            <param name="combinedDescription">Answer text.</param>
+            <param name="createdBy">Created by user.</param>
+            <param name="conversationId">Conversation id.</param>
+            <param name="activityReferenceId">Activity reference id refer to activityid in storage table.</param>
+            <returns>Operation state as task.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.UpdateQnaAsync(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Update Qna pair in knowledge base.
+            </summary>
+            <param name="questionId">Question id.</param>
+            <param name="answer">Answer text.</param>
+            <param name="updatedBy">Updated by user.</param>
+            <param name="updatedQuestion">Updated question text.</param>
+            <param name="question">Original question text.</param>
+            <returns>Perfomed action task.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.DeleteQnaAsync(System.Int32)">
+            <summary>
+            This method is used to delete Qna pair from KB.
+            </summary>
+            <param name="questionId">Question id.</param>
+            <returns>Perfomed action task.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.GenerateAnswerAsync(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Get answer from knowledgebase for a given question.
+            </summary>
+            <param name="question">Question text.</param>
+            <param name="isTestKnowledgeBase">Prod or test.</param>
+            <param name="previousQnAId">Id of previous question.</param>
+            <param name="previousUserQuery">Previous question information.</param>
+            <returns>QnaSearchResultList result as response.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.DownloadKnowledgebaseAsync(System.String)">
+            <summary>
+            This method returns the downloaded knowledgebase documents.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase Id.</param>
+            <returns>List of question and answer document object.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.GetPublishStatusAsync(System.String)">
+            <summary>
+            Checks whether knowledgebase need to be published.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase id.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents knowledgebase need to be published while false indicates knowledgebase not need to be published.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.PublishKnowledgebaseAsync(System.String)">
+            <summary>
+            Method is used to publish knowledgebase.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase Id.</param>
+            <returns>Task for published data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.QnaServiceProvider.GetInitialPublishedStatusAsync(System.String)">
+            <summary>
+            Get knowledgebase published information.
+            </summary>
+            <param name="knowledgeBaseId">Knowledgebase id.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type bool where true represents knowledgebase has published atleast once while false indicates that knowledgebase has not published yet.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService">
+            <summary>
+            SearchService which will help in creating index, indexer and datasource if it doesn't exist
+            for indexing table which will be used for search by message extension.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.options">
+            <summary>
+            Represents a set of key/value application configuration properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.Configuration.KnowledgeBaseSettings},Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.ITicketsProvider,Microsoft.Extensions.Logging.ILogger{Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService"/> class.
+            </summary>
+            <param name="optionsAccessor">A set of key/value application configuration properties.</param>
+            <param name="ticketProvider"> TicketsProvider provided by dependency injection.</param>
+            <param name="logger">Instance to send logs to the Application Insights service.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.SearchTicketsAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketSearchScope,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Provide search result for table to be used by SME based on Azure search service.
+            </summary>
+            <param name="searchScope">Scope of the search.</param>
+            <param name="searchQuery">searchQuery to be provided by message extension.</param>
+            <param name="count">Number of search results to return.</param>
+            <param name="skip">Number of search results to skip.</param>
+            <returns>List of search results.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.InitializeAsync(System.String)">
+            <summary>
+            Create index, indexer and data source it doesn't exist.
+            </summary>
+            <param name="storageConnectionString">Connection string to the data store.</param>
+            <returns>Tracking task.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.CreateIndexAsync">
+            <summary>
+            Create index in Azure search service if it doesn't exist.
+            </summary>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> That represents index is created if it is not created.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.CreateDataSourceAsync(System.String)">
+            <summary>
+            Add data source if it doesn't exist in Azure search service.
+            </summary>
+            <param name="connectionString">Connection string to the data store.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> That represents data source is added to Azure search service.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.CreateIndexerAsync">
+            <summary>
+            Create indexer if it doesn't exist in Azure search service.
+            </summary>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> That represents indexer is created if not available in Azure search service.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchService.EnsureInitializedAsync">
+            <summary>
+            Initialization of InitializeAsync method which will help in indexing.
+            </summary>
+            <returns>Task with initialized data.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider">
+            <summary>
+            Azure search service blob storage data provider.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider.FaqPlusQnAFile">
+            <summary>
+            File name storing JSON structured QnA records.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider.#ctor(Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.IQnaServiceProvider,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider"/> class.
+            </summary>
+            <param name="qnaServiceProvider">question and answer ServiceProvider.</param>
+            <param name="storageConnectionString">Azure web job storage.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider.SetupAzureSearchDataAsync(System.String)">
+            <summary>
+            This method downloads the knowledgebase and stores the json string to blob storage.
+            </summary>
+            <param name="knowledgeBaseId">knowledgebase id.</param>
+            <returns>Task of downloaded data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider.GenerateFormattedJson(System.Collections.Generic.IEnumerable{Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.Models.QnADTO})">
+            <summary>
+            Function to convert input JSON to align with Schema Definition.
+            </summary>
+            <param name="qnaDocuments">Qna documents.</param>
+            <returns>Create json format for search.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.SearchServiceDataProvider.AddDataToBlobStorageAsync(System.String)">
+            <summary>
+            This method is used to store json to blob storage.
+            </summary>
+            <param name="jsonData">knowledgebase jsonData string.</param>
+            <returns>Task of storage of json in blob.</returns>
+        </member>
+        <member name="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider">
+            <summary>
+            Ticket provider helps in fetching and storing information in storage table.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider"/> class.
+            </summary>
+            <param name="connectionString">connection string of storage provided by dependency injection.</param>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider.UpsertTicketAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity)">
+            <summary>
+            Store or update ticket entity in table storage.
+            </summary>
+            <param name="ticket">Represents ticket entity used for storage and retrieval.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> that represents configuration entity is saved or updated.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider.GetTicketAsync(System.String)">
+            <summary>
+            Get already saved entity detail from storage table.
+            </summary>
+            <param name="ticketId">ticket id received from bot based on which appropriate row data will be fetched.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> Already saved entity detail.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider.EnsureInitializedAsync">
+            <summary>
+            Initialization of InitializeAsync method which will help in creating table.
+            </summary>
+            <returns>Represent a task with initialized connection data.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider.InitializeTableStorageAsync(System.String)">
+            <summary>
+            Create tickets table if it doesn't exist.
+            </summary>
+            <param name="connectionString">storage account connection string.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation task which represents table is created if its not existing.</returns>
+        </member>
+        <member name="M:Microsoft.Teams.Apps.FAQPlusPlus.Common.Providers.TicketsProvider.StoreOrUpdateTicketEntityAsync(Microsoft.Teams.Apps.FAQPlusPlus.Common.Models.TicketEntity)">
+            <summary>
+            Store or update ticket entity in table storage.
+            </summary>
+            <param name="entity">Represents ticket entity used for storage and retrieval.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/> that represents configuration entity is saved or updated.</returns>
+        </member>
+    </members>
+</doc>
