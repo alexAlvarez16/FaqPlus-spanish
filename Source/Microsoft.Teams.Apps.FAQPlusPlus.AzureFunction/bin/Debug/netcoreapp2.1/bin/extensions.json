@@ -1,5 +1,0 @@
-{
-  "extensions":[
-    { "name": "Startup", "typeName":"Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.Startup, Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"}
-  ]
-}

@@ -27,4 +27,3 @@ C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.F
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.Views.pdb
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.dll
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.pdb
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.csproj.CoreCompileInputs.cache

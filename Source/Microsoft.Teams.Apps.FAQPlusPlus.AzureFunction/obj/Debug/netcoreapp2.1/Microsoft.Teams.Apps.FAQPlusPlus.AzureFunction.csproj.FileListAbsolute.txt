@@ -75,11 +75,3 @@ C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.F
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.AssemblyInfoInputs.cache
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.AssemblyInfo.cs
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.csproj.CopyComplete
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\bin\Debug\netcoreapp2.1\host.json
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\bin\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.deps.json
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\bin\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.pdb
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\bin\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.xml
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\bin\Debug\netcoreapp2.1\bin\System.Data.DataSetExtensions.dll
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.csproj.CoreCompileInputs.cache
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.dll
-C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction\obj\Debug\netcoreapp2.1\Microsoft.Teams.Apps.FAQPlusPlus.AzureFunction.pdb
