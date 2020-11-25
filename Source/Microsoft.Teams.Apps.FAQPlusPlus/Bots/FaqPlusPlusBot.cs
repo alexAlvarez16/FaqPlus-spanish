@@ -1659,9 +1659,9 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     dtAnswersId.Rows.Add(item.Id.ToString().Trim().ToLower(), item.Answer.ToString().Trim().ToLower(), item.Score);
                 }
 
-                //IEnumerable<DataRow> metadataquery = from myRow in dtTranspose.AsEnumerable()
-                //                                     where myRow.Field<string>("metadatavalue").Trim().ToLower().Replace(" ", "").Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u") != ""
-                //                                     select myRow;
+                IEnumerable<DataRow> metadataquery = from myRow in dtTranspose.AsEnumerable()
+                                                     where myRow.Field<string>("metadatavalue").Trim().ToLower().Replace(" ", "").Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u") != ""
+                                                     select myRow;
 
 
 
