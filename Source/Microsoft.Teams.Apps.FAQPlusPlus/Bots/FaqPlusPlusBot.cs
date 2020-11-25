@@ -6,6 +6,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
 {
     using System;
     using System.Collections.Generic;
+    using System.Data;
     using System.Globalization;
     using System.Linq;
     using System.Net;
@@ -1601,6 +1602,17 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
 
 
                 var queryResult = new QnASearchResultList();
+
+                DataTable dt = new DataTable();
+               dt.Columns.Add("test");
+
+               dt.Rows.Add("1");
+
+                var querytest = (
+                    from PD in dt.AsEnumerable()
+                    select PD
+                    );
+
 
 
                 ResponseCardPayload payload = new ResponseCardPayload();

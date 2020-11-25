@@ -7,3 +7,4 @@ C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.F
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.AssemblyInfo.cs
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.dll
 C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.pdb
+C:\Users\ralvarez\Documents\Github\FaqPlus-spanish\Source\Microsoft.Teams.Apps.FAQPlusPlus.Common\obj\Debug\netstandard2.0\Microsoft.Teams.Apps.FAQPlusPlus.Common.csproj.CoreCompileInputs.cache

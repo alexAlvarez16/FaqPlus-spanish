@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8f9fec4869127c22d3a5bcad10a221f9c2686a3c"
+    "signature": "8e015b5bd90972da42b8ded043015b1347cc8e94"
   },
   "compilationOptions": {
     "defines": [
@@ -39,6 +39,7 @@
           "Microsoft.Teams.Apps.FAQPlusPlus.Common": "1.0.0",
           "Microsoft.Web.LibraryManager.Build": "2.0.96",
           "StyleCop.Analyzers": "1.1.118",
+          "System.Data.DataSetExtensions": "4.5.0",
           "WindowsAzure.Storage": "9.3.3"
         },
         "runtime": {
@@ -1228,6 +1229,17 @@
           }
         }
       },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/4.6.0": {
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
@@ -1663,6 +1675,7 @@
           "Microsoft.Extensions.Options": "2.1.1",
           "Newtonsoft.Json": "12.0.3",
           "System.ComponentModel.Annotations": "4.5.0",
+          "System.Data.DataSetExtensions": "4.5.0",
           "WindowsAzure.Storage": "9.3.3"
         },
         "runtime": {
@@ -4803,6 +4816,13 @@
       "sha512": "sha512-/anOTeSZCNNI2zDilogWrZ8pNqCmYbzGNexUnNhjW8k0sHqEZ2nHJBp147jBV3hGYswu5lINpNg1vxR7bnqvVA==",
       "path": "system.configuration.configurationmanager/4.7.0",
       "hashPath": "system.configuration.configurationmanager.4.7.0.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/4.6.0": {
       "type": "package",
